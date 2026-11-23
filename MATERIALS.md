@@ -32,7 +32,8 @@ Reference list for crafting and matter. The **Cost to make** column is intention
 | Kinetic Ammo | Ammo for the mass cannon. Can be made from multiple materials and elements | |
 | Steel | Iron alloyed with carbon. Strong, common structural metal | |
 | Armor plating | Layered composite plating that absorbs hits | |
-| Bearings / actuators | Moving parts for gyroscopes, mooring clamps, and cargo bay doors | |
+| Bearing | Low-friction support for spinning parts, such as gyroscope rotors | |
+| Actuator | Powered motion for clamps, cargo bay doors, and other moving parts | |
 | Aerogel | Extremely light insulation for heat-sensitive parts | |
 | Radiator panels | High-surface panels that shed heat into space | |
 
