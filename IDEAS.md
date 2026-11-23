@@ -14,6 +14,7 @@ Ships are made of modular parts.
 |---|---|---|
 | Hull / Frame | Structural base that other parts attach to | |
 | Storage bay | Raises maximum matter capacity | |
+| Cargo bay | Carries whole bodies, if it can close on one | |
 | Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks | Intake uses a funnel (see Notes) |
 | Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Costs a tiny amount of electricity |
 | Mass cannon | Fires mass at targets | Uses Kinetic Ammo |
@@ -42,6 +43,7 @@ Ships are made of modular parts.
 - **Heat:** tracked per part. Heat spreads between neighboring parts over time.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Kinetic Ammo:** the mass cannon's ammo. Can be made from multiple materials and elements.
+- **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
 
 ---
 
@@ -65,10 +67,11 @@ Ships are made of modular parts.
 
 - Build multiple ships.
 - Detach control from a ship and control any ship you own.
+- No limit on how far away you can control a ship from.
+- Vessel list: a rearrangeable, scrollable, foldable list of the vessels you own. It shows each vessel's current activity and lets you take control of one.
 
 ---
 
 ## Open questions
 
 - Which rare materials do stations give out?
-- Is there a limit on how far away you can control a ship from?
