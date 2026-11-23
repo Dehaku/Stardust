@@ -25,6 +25,12 @@ Ships are made of modular parts.
 | Heat sink | Holds more heat before reaching dangerous levels | |
 | Radiator | Dissipates heat into space | |
 | Heat ejector | Launches hot matter out, heavily lowering heat | Costs matter |
+| Battery | Increases ship electricity capacity | Tiers in kilowatts, megawatts, gigawatts, and up |
+| Solar generator | Makes electricity from a nearby star | Output rises the closer it is and the more it faces the star directly |
+| Thermal generator | Slowly turns high heat into electricity | |
+| Burner | Makes a lot of heat out of matter | |
+| Fission generator | Makes intense heat out of radioactive material | |
+| Fusion generator | Makes intense heat out of very little, rare, matter | |
 
 ---
 
@@ -50,4 +56,3 @@ Ships are made of modular parts.
 
 - What does a drill break matter into, if anything?
 - Does the mass cannon use iron as ammo, or does it also do something else?
-- Is electricity produced by a part, or only stored?
