@@ -60,3 +60,20 @@ Reference list for crafting and matter. The **Cost to make** column is intention
 | Platinum | Dense, corrosion-resistant metal used in catalysts | |
 | Gold | Dense, conductive metal used in electronics | |
 | Uranium | Radioactive element used as fission fuel | |
+
+---
+
+## Rare Materials
+
+These are not meant to be easily produced.
+
+| Name | Description | Cost to make |
+|---|---|---|
+| Movium | Required by tractor beams, hyperdrives, and warp drives | |
+| Helium-3 | Fuel for the fusion generator | |
+| Cryonite | Very cold material for heat sinks and coolant | |
+| Neutronium | Extremely dense, found near neutron stars. Used for fission and armor | |
+| Pyrium | Burns hot. Fuel for the burner | |
+| Voidglass | Transparent and heat-resistant. Used for sensors and shielding | |
+| Gravitite | Pulls on nearby bodies. Used for tractor-beam-like parts | |
+| Starsteel | Metal forged from stellar matter. Used for hulls that need to survive close to stars | |

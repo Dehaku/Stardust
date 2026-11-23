@@ -68,14 +68,7 @@ Ships are made of modular parts.
 
 ## Rare materials
 
-- **Movium:** tractor beams, hyperdrives, and warp drives all cost it.
-- **Helium-3:** fuel for the fusion generator.
-- **Cryonite:** very cold material for heat sinks and coolant.
-- **Neutronium:** extremely dense, found near neutron stars. Used for fission and armor.
-- **Pyrium:** burns hot. Fuel for the burner.
-- **Voidglass:** transparent and heat-resistant. Used for sensors and shielding.
-- **Gravitite:** pulls on nearby bodies. Used for tractor-beam-like parts.
-- **Starsteel:** metal forged from stellar matter. Used for hulls that need to survive close to stars.
+Moved to `MATERIALS.md`.
 
 ---
 
