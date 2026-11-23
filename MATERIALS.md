@@ -45,11 +45,11 @@ Reference list for crafting and matter. Elements are raw and aren't crafted, so 
 | Name | Description | Cost to make |
 |---|---|---|
 | Hydrogen | Most common element in the universe, fuels stars | |
-| Helium | Second most common element, light and inert | |
-| Lithium | Light metal used in batteries | |
+| Helium | Second most common element, light and inert | Uranium (fission converter) |
+| Lithium | Light metal used in batteries | Boron (fission converter) |
 | Beryllium | Light, stiff metal used in reflectors and shielding | |
 | Boron | Hard element used in shielding and control rods | |
-| Carbon | Basis of organic matter and most materials | |
+| Carbon | Basis of organic matter and most materials | Helium, Hydrogen (fusion converter) |
 | Nitrogen | Makes up most of the air on many worlds | |
 | Oxygen | Reactive gas used in combustion and life support | |
 | Fluorine | Most reactive element, used in refining | |
@@ -66,14 +66,14 @@ Reference list for crafting and matter. Elements are raw and aren't crafted, so 
 | Titanium | Strong, light metal used in alloys | |
 | Chromium | Hard metal used in plating | |
 | Manganese | Metal used in steel alloys | |
-| Iron | Most common metal in planetary cores, used in steel | |
+| Iron | Most common metal in planetary cores, used in steel | Silicon, Oxygen (fusion converter) |
 | Nickel | Metal found in iron meteorites, used in alloys | |
 | Copper | Excellent electrical conductor | |
 | Zinc | Metal used in plating and batteries | |
 | Tungsten | Very dense, heat-resistant metal | |
 | Platinum | Dense, corrosion-resistant metal used in catalysts | |
-| Gold | Dense, conductive metal used in electronics | |
-| Uranium | Radioactive element used as fission fuel | |
+| Gold | Dense, conductive metal used in electronics | Platinum, Tungsten (fusion converter) |
+| Uranium | Radioactive element used as fission fuel | Found naturally, not made |
 | Lead | Dense metal that blocks radiation | |
 | Neodymium | Rare earth metal used in strong magnets | |
 
