@@ -15,7 +15,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 ## Notes
 
 - **Matter:** any element or material that gets harvested, such as iron, silicon, helium, or hydrogen.
-- **Grinders:** always have odd funnels that make resource gathering more challenging.
+- **Grinders:** always have odd funnels that make resource gathering more challenging. They're massive: 5 blocks wide, even the weakest one. This encourages moving bodies to stations.
 - **Part size:** parts take up multiple slots and are always cuboid.
 - **Heat:** tracked per part. Heat spreads between neighboring parts over time.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.

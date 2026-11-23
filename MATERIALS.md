@@ -84,7 +84,7 @@ These are not meant to be easily produced.
 
 | Name | Description | Cost to make |
 |---|---|---|
-| Movium | Required by tractor beams, hyperdrives, and warp drives | |
+| Moovium | Required by tractor beams, hyperdrives, and warp drives. Flavor: comes from cows | |
 | Helium-3 | Fuel for the fusion generator | |
 | Cryonite | Very cold material for heat sinks and coolant | |
 | Neutronium | Extremely dense, found near neutron stars. Used for fission and armor | |
