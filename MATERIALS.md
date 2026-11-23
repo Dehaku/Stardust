@@ -1,6 +1,6 @@
 # Stardust: Materials and Elements
 
-Reference list for crafting and matter. Elements are raw and aren't crafted, so their **Cost to make** column is left blank.
+Reference list for crafting and matter. Elements' **Cost to make** shows the inputs and the converter that make them, using the loose rules in the Elements section. Elements marked **Found naturally** aren't made.
 
 ## Recipe rules
 
