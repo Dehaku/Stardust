@@ -57,6 +57,16 @@ Moved to `MATERIALS.md`.
 
 ---
 
+## Crafting menu
+
+- Lists every recipe you've unlocked, for parts and materials.
+- Each recipe has a min/max double slider for auto production. When stock drops to the min, crafting starts. When stock reaches the max, it stops. The min can't go above the max.
+- Groups: make custom groups and fold or unfold each one.
+- Each group has an on/off switch that toggles all of its recipes at once.
+- Drag recipes between groups to move them. Drag within a group to reorder.
+
+---
+
 ## Open questions
 
 - Which rare materials do stations give out?
