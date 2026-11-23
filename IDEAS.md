@@ -8,41 +8,7 @@ Space game about harvesting asteroids, moons, planets, and stars, all while maki
 
 ## Ships
 
-Ships are made of modular parts.
-
-| Part | Function | Cost / notes |
-|---|---|---|
-| Hull / Frame | Structural base that other parts attach to | |
-| Storage bay | Raises maximum matter capacity | |
-| Cargo bay | Carries whole bodies, if it can close on one | |
-| Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks | Intake uses a funnel (see Notes) |
-| Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Costs a tiny amount of electricity |
-| Mass cannon | Fires mass at targets | Uses Kinetic Ammo |
-| Laser cannon | Fires a laser | Costs a lot of electricity |
-| Tractor beam | Moves matter without touching it | Costs Movium |
-| Thruster | Gives speed | |
-| Fusion converter | Makes material out of elements | |
-| Fission converter | Breaks elements into smaller elements | |
-| Heat sink | Holds more heat before reaching dangerous levels | |
-| Radiator | Dissipates heat into space | |
-| Heat ejector | Launches hot matter out, heavily lowering heat | Costs matter |
-| Battery | Increases ship electricity capacity | Tiers in kilowatts, megawatts, gigawatts, and up |
-| Solar generator | Makes electricity from a nearby star | Output rises the closer it is and the more it faces the star directly |
-| Thermal generator | Slowly turns high heat into electricity | |
-| Burner | Makes a lot of heat out of matter | |
-| Fission generator | Makes intense heat out of radioactive material | |
-| Fusion generator | Makes intense heat out of very little, rare, matter | |
-| Warp drive | Teleports the vessel | Costs Movium |
-| Hyperdrive | Lets the vessel go really fast, as long as it's on | Costs Movium |
-| Scoop | Collects trace matter from open space, or lots of matter from gas giants and stars, including helium-3 | |
-| Shield generator | Absorbs damage | Costs electricity |
-| Sensor array | Reveals bodies at range and shows their matter makeup | |
-| Autopilot | Holds a course or station so you can work on other vessels | |
-| Gyroscope | Rotates the ship without thrust | |
-| Refinery | Sorts mixed matter into pure elements | |
-| Mooring clamp | Holds a body steady for drills and grinders | |
-| Coolant pump | Moves heat from one part to another on purpose | |
-| Docking clamp | Joins two vessels so they move as one | |
+Ships are made of modular parts. The full parts list, with cost to make and cost to use, is in `PARTS.md`.
 
 ---
 
@@ -53,7 +19,6 @@ Ships are made of modular parts.
 - **Part size:** parts take up multiple slots and are always cuboid.
 - **Heat:** tracked per part. Heat spreads between neighboring parts over time.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
-- **Kinetic Ammo:** the mass cannon's ammo. Can be made from multiple materials and elements.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
 
 ---

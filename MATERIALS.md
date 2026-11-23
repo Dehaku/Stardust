@@ -23,6 +23,7 @@ Reference list for crafting and matter. The **Cost to make** column is intention
 | Ammonia | Volatile compound from ice worlds, used as coolant and propellant | |
 | Graphite | Lubricant, heat spreader, and reactor moderator | |
 | Explosive charge | Breaks up bodies for drills and mining | |
+| Kinetic Ammo | Ammo for the mass cannon. Can be made from multiple materials and elements | |
 
 ---
 
