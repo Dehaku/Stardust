@@ -19,7 +19,7 @@ Ships are made of modular parts.
 | Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Costs a tiny amount of electricity |
 | Mass cannon | Fires mass at targets | Uses Kinetic Ammo |
 | Laser cannon | Fires a laser | Costs a lot of electricity |
-| Tractor beam | Moves matter without touching it | |
+| Tractor beam | Moves matter without touching it | Costs Movium |
 | Thruster | Gives speed | |
 | Fusion converter | Makes material out of elements | |
 | Fission converter | Breaks elements into smaller elements | |
@@ -32,6 +32,8 @@ Ships are made of modular parts.
 | Burner | Makes a lot of heat out of matter | |
 | Fission generator | Makes intense heat out of radioactive material | |
 | Fusion generator | Makes intense heat out of very little, rare, matter | |
+| Warp drive | Teleports the vessel | Costs Movium |
+| Hyperdrive | Lets the vessel go really fast, as long as it's on | Costs Movium |
 
 ---
 
@@ -44,6 +46,7 @@ Ships are made of modular parts.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Kinetic Ammo:** the mass cannon's ammo. Can be made from multiple materials and elements.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
+- **Movium:** a rare material. Tractor beams, hyperdrives, and warp drives all cost it.
 
 ---
 
