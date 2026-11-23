@@ -9,7 +9,7 @@ Each POI has a spawn weight. When a POI spawns, the game makes a random roll wei
 | Trade station | Station | 30 | Sells parts and part blueprints for credits. Buys unused elements for credits |
 | Refinery station | Station | 20 | Takes resources and gives back rare materials |
 | Cargo station | Station | 10 | Takes whole asteroids into its open cargo bay |
-| Quest station | Station | 8 | Gives quests that can reward Specialized Producers |
+| Quest station | Station | 8 | Gives quests that can reward Specialized producers |
 | Derelict freighter | Derelict ship | 12 | Loot: common parts and materials |
 | Derelict warship | Derelict ship | 6 | Loot: weapons parts and Kinetic Ammo |
-| Derelict survey ship | Derelict ship | 1 | Rare loot: a Specialized Producer |
+| Derelict survey ship | Derelict ship | 1 | Rare loot: a Specialized producer |

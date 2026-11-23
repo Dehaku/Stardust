@@ -1,8 +1,8 @@
 # Stardust: Materials and Elements
 
-Reference list for crafting and matter. Elements can be found and harvested, and they can also be made by converters. **Harvested from** shows where they're found, and **Cost to make** shows the inputs and converter that can make them.
+Reference list for crafting and matter. Elements and some materials can be found and harvested, and elements can also be made by converters. **Harvested from** shows where they're found, and **Cost to make** shows the inputs and converter that can make them.
 
-Converter recipes are loose, not real physics. Each one shows how many of each input make how many outputs, with the amounts set by atomic weight so the total weight going in roughly matches the total coming out. Fission converters can give byproducts when the weights need to balance.
+Converter recipes are loose, not real physics. Each one shows how many of each input make how many outputs, with the amounts set by atomic weight so the total weight going in roughly matches the total coming out. Fusion and fission converters can give byproducts when the weights need to balance, and so can recipes from other parts.
 
 ## Recipe rules
 
@@ -11,35 +11,37 @@ Converter recipes are loose, not real physics. Each one shows how many of each i
 - Counting: a material made only from elements is 1 step. A material made from a 1-step material is 2 steps. Nothing goes deeper than 2 steps, and no part uses a material deeper than 2 steps.
 - Elements are exempt from the limit, since they can be found and harvested. Converter recipes for elements can chain as deep as they like.
 - Don't add more stages than this unless explicitly told to. If a recipe does add stages, say so.
+- Items in brackets are alternatives, and any one of them works.
 
 ---
 
 ## Materials
 
-| Name | Description | Cost to make |
-|---|---|---|
-| Water ice | Frozen water from comets and moons | Hydrogen, Oxygen |
-| Regolith | Loose dust and rock on airless bodies | Found naturally, not made |
-| Basalt | Volcanic rock, a common building stone | Found naturally, not made |
-| Titanium alloy | Strong hull plating | Titanium, Aluminum |
-| Carbon fiber | Light structural composite | Carbon, Polymer |
-| Ceramic tile | Heat-resistant plating | Silicon, Oxygen, Aluminum |
-| Polymer | Insulation and seals | Carbon, Hydrogen |
-| Glass | Windows and lenses | Silicon, Oxygen, Calcium |
-| Copper wire | Conducts electricity | Copper |
-| Circuit board | Electronics for control parts | Copper wire, Silicon, Gold |
-| Superconductor coil | Low-loss power transfer | Copper wire, Titanium alloy, Helium |
-| Propellant | Fuel for thrusters | Hydrogen, Oxygen |
-| Ammonia | Volatile compound from ice worlds, used as coolant and propellant | Nitrogen, Hydrogen |
-| Graphite | Lubricant, heat spreader, and reactor moderator | Carbon |
-| Explosive charge | Breaks up bodies for drills and mining | Nitrogen, Carbon, Oxygen |
-| Kinetic Ammo | Ammo for the mass cannon. Can be made from multiple materials and elements | Tungsten, Lead, Steel |
-| Steel | Iron alloyed with carbon. Strong, common structural metal | Iron, Carbon |
-| Armor plating | Layered composite plating that absorbs hits | Steel, Ceramic tile |
-| Bearing | Low-friction support for spinning parts, such as gyroscope rotors | Steel, Graphite |
-| Actuator | Powered motion for clamps, cargo bay doors, and other moving parts | Copper wire, Steel |
-| Aerogel | Extremely light insulation for heat-sensitive parts | Silicon, Oxygen |
-| Radiator panels | High-surface panels that shed heat into space | Aluminum, Graphite |
+| Name | Description | Harvested from | Cost to make |
+|---|---|---|---|
+| Water ice | Frozen water from comets and moons | Comets and ice moons | Hydrogen, Oxygen |
+| Regolith | Loose dust and rock on airless bodies | — | Found naturally, not made |
+| Basalt | Volcanic rock, a common building stone | — | Found naturally, not made |
+| Titanium alloy | Strong hull plating | — | Titanium, Aluminum |
+| Carbon fiber | Light structural composite | — | Carbon, Polymer |
+| Ceramic tile | Heat-resistant plating | — | Silicon, Oxygen, Aluminum |
+| Polymer | Insulation and seals | — | Carbon, Hydrogen |
+| Glass | Windows and lenses | — | Silicon, Oxygen, Calcium |
+| Copper wire | Conducts electricity | — | Copper |
+| Circuit board | Electronics for control parts | — | Copper wire, Silicon, Gold |
+| Superconductor coil | Low-loss power transfer | — | Copper wire, Titanium alloy, Helium |
+| Propellant | Fuel for thrusters | — | Hydrogen, Oxygen |
+| Ammonia | Volatile compound used as coolant and propellant | Ice worlds | Nitrogen, Hydrogen |
+| Graphite | Lubricant, heat spreader, and reactor moderator | — | Carbon |
+| Explosive charge | Breaks up bodies for drills and mining | — | Nitrogen, Carbon, Oxygen |
+| Kinetic ammo | Ammo for the mass cannon | — | [Tungsten, Lead], Steel |
+| Regolith slug | Cheap mass cannon ammo. Deals 1/4 the effect of kinetic ammo | — | Regolith, Polymer |
+| Steel | Iron alloyed with carbon. Strong, common structural metal | — | Iron, Carbon |
+| Armor plating | Layered composite plating that absorbs hits | — | Steel, Ceramic tile |
+| Bearing | Low-friction support for spinning parts, such as gyroscope rotors | — | Steel, Graphite |
+| Actuator | Powered motion for clamps, cargo bay doors, and other moving parts | — | Copper wire, Steel |
+| Aerogel | Extremely light insulation for heat-sensitive parts | — | Silicon, Oxygen |
+| Radiator panel | High-surface panel that sheds heat into space | — | Aluminum, Graphite |
 
 ---
 
@@ -63,9 +65,9 @@ Converter recipes are loose, not real physics. Each one shows how many of each i
 | Phosphorus | Reactive element, used in fertilizer and matches | Asteroids | 1 Silicon + 3 Hydrogen → 1 Phosphorus (fusion converter) |
 | Sulfur | Yellow element found around volcanoes | Volcanic moons | 1 Silicon + 1 Helium → 1 Sulfur (fusion converter) |
 | Chlorine | Reactive gas used in purification | Salt-rich asteroids | 1 Sulfur + 3 Hydrogen → 1 Chlorine (fusion converter) |
-| Argon | Inert gas used in shielding gas | Planet atmospheres (scoop) | 1 Sulfur + 2 Helium → 1 Argon (fusion converter) |
+| Argon | Inert gas used for welding and lighting | Planet atmospheres (scoop) | 1 Sulfur + 2 Helium → 1 Argon (fusion converter) |
 | Potassium | Reactive metal found in salts | Asteroids and planetary crust | 1 Argon → 1 Potassium + 1 Hydrogen (fission converter) |
-| Calcium | Common metal in bone and rock | Planetary crust | 1 Argon + 1 Helium → 1 Calcium + 4 Hydrogen (fusion converter) |
+| Calcium | Common metal in bone and rock | Planetary crust | 1 Potassium + 1 Hydrogen → 1 Calcium (fusion converter) |
 | Titanium | Strong, light metal used in alloys | Planetary crust | 1 Calcium + 2 Helium → 1 Titanium (fusion converter) |
 | Chromium | Hard metal used in plating | Asteroids | 1 Titanium + 1 Helium → 1 Chromium (fusion converter) |
 | Manganese | Metal used in steel alloys | Asteroids | 1 Chromium + 3 Hydrogen → 1 Manganese (fusion converter) |
@@ -75,7 +77,7 @@ Converter recipes are loose, not real physics. Each one shows how many of each i
 | Zinc | Metal used in plating and batteries | Asteroids | 1 Copper + 1 Hydrogen → 1 Zinc (fusion converter) |
 | Tungsten | Very dense, heat-resistant metal | Asteroids and planetary crust | 1 Neodymium + 1 Argon → 1 Tungsten (fusion converter) |
 | Platinum | Dense, corrosion-resistant metal used in catalysts | Asteroid cores (rare) | 1 Tungsten + 1 Boron → 1 Platinum (fusion converter) |
-| Gold | Dense, conductive metal used in electronics | Asteroid cores (rare) | 1 Platinum + 1 Tungsten → 2 Gold (fusion converter) |
+| Gold | Dense, conductive metal used in electronics | Asteroid cores (rare) | 1 Platinum + 1 Tungsten → 2 Gold (fusion converter). Gains extra mass, so it takes a lot more electricity to make up the gap |
 | Uranium | Radioactive element used as fission fuel | Asteroids and planetary crust | 1 Lead + 1 Phosphorus → 1 Uranium (fusion converter) |
 | Lead | Dense metal that blocks radiation | Planetary crust | 1 Tungsten + 1 Magnesium → 1 Lead (fusion converter) |
 | Neodymium | Rare earth metal used in strong magnets | Planetary crust (rare) | 5 Nickel + 5 Iron → 4 Neodymium (fusion converter) |

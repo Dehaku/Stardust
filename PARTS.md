@@ -13,7 +13,7 @@ Modular ship parts. Parts take up multiple slots and are always cuboid. Tiers an
 | Cargo bay | Carries whole bodies, if it can close on one | Steel, Actuator | Electricity |
 | Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks. Funnel-shaped intake. Massive: 5 blocks wide, even the weakest one (see IDEAS.md Notes) | Steel, Bearing | Electricity |
 | Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Tungsten, Steel | Tiny amount of electricity |
-| Mass cannon | Fires mass at targets | Steel, Copper wire | Kinetic Ammo |
+| Mass cannon | Fires mass at targets | Steel, Copper wire | [Kinetic ammo, Regolith slug] |
 | Laser cannon | Fires a laser | Glass, Copper wire, Circuit board | A lot of electricity |
 | Tractor beam | Moves matter without touching it | Moovium | Electricity |
 | Thruster | Gives speed | Titanium alloy, Ceramic tile | Propellant |
@@ -23,7 +23,7 @@ Modular ship parts. Parts take up multiple slots and are always cuboid. Tiers an
 | Assembler | Makes level 2 materials (made from level 1 materials) | Circuit board, Actuator, Steel | Electricity |
 | Electrolysis | Turns water ice into hydrogen and oxygen | Copper wire, Titanium alloy | Electricity |
 | Heat sink | Holds more heat before reaching dangerous levels | Graphite, Ceramic tile | None |
-| Radiator | Dissipates heat into space | Radiator panels, Steel | None |
+| Radiator | Dissipates heat into space | Radiator panel, Steel | None |
 | Heat ejector | Launches hot matter out, heavily lowering heat | Titanium alloy, Ceramic tile, Actuator | Matter |
 | Battery | Increases ship electricity capacity, in tiers from kilowatts to gigawatts and up | [Lithium, Zinc], Copper wire, Polymer | None |
 | Solar generator | Makes electricity from a nearby star. Output rises the closer it is and the more it faces the star directly | Glass, Circuit board, Silicon | None |
@@ -39,23 +39,24 @@ Modular ship parts. Parts take up multiple slots and are always cuboid. Tiers an
 | Autopilot | Holds a course or station so you can work on other vessels | Circuit board, Copper wire | Electricity |
 | Gyroscope | Rotates the ship without thrust | Bearing, Steel | Electricity |
 | Refinery | Sorts mixed matter into pure elements | Steel, Ceramic tile, Actuator | Electricity |
+| Regolith refinery | Sorts regolith into pure elements. Massive: 5 blocks wide, even the weakest one, like the grinder | Steel, Actuator, Ceramic tile | Electricity |
 | Mooring clamp | Holds a body steady for drills and grinders | Steel, Actuator | Electricity |
-| Coolant pump | Moves heat from one part to another on purpose | Actuator, Copper wire, Ammonia, Water ice | Electricity |
+| Coolant pump | Moves heat from one part to another on purpose | Actuator, Copper wire, [Ammonia, Water ice] | Electricity |
 | Docking clamp | Joins two vessels so they move as one | Steel, Actuator | Electricity |
 
 ---
 
-## Specialized Producers
+## Specialized producers
 
 Each one makes a single rare material. They can't be built. They're gained from station quests or by looting derelict ships in the void (rare POIs, see POIS.md). Their running cost is low.
 
 | Part | Function | Cost to make | Cost to use |
 |---|---|---|---|
-| Specialized Producer [Moovium] | Makes Moovium only | Not buildable | Tiny amount of electricity |
-| Specialized Producer [Helium-3] | Makes Helium-3 only | Not buildable | Tiny amount of electricity |
-| Specialized Producer [Cryonite] | Makes Cryonite only | Not buildable | Tiny amount of electricity |
-| Specialized Producer [Neutronium] | Makes Neutronium only | Not buildable | Tiny amount of electricity |
-| Specialized Producer [Pyrium] | Makes Pyrium only | Not buildable | Tiny amount of electricity |
-| Specialized Producer [Voidglass] | Makes Voidglass only | Not buildable | Tiny amount of electricity |
-| Specialized Producer [Gravitite] | Makes Gravitite only | Not buildable | Tiny amount of electricity |
-| Specialized Producer [Starsteel] | Makes Starsteel only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Moovium] | Makes Moovium only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Helium-3] | Makes Helium-3 only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Cryonite] | Makes Cryonite only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Neutronium] | Makes Neutronium only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Pyrium] | Makes Pyrium only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Voidglass] | Makes Voidglass only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Gravitite] | Makes Gravitite only | Not buildable | Tiny amount of electricity |
+| Specialized producer [Starsteel] | Makes Starsteel only | Not buildable | Tiny amount of electricity |
