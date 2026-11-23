@@ -14,9 +14,9 @@ Ships are made of modular parts.
 |---|---|---|
 | Hull / Frame | Structural base that other parts attach to | |
 | Storage bay | Raises maximum matter capacity | |
-| Grinder | Harvests matter it touches | Intake uses a funnel (see Notes) |
-| Drill | Breaks matter it touches | Costs a tiny amount of electricity |
-| Mass cannon | Fires mass at targets | Costs matter, likely iron |
+| Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks | Intake uses a funnel (see Notes) |
+| Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Costs a tiny amount of electricity |
+| Mass cannon | Fires mass at targets | Uses Kinetic Ammo |
 | Laser cannon | Fires a laser | Costs a lot of electricity |
 | Tractor beam | Moves matter without touching it | |
 | Thruster | Gives speed | |
@@ -41,6 +41,7 @@ Ships are made of modular parts.
 - **Part size:** parts take up multiple slots and are always cuboid.
 - **Heat:** tracked per part. Heat spreads between neighboring parts over time.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
+- **Kinetic Ammo:** the mass cannon's ammo. Can be made from multiple materials and elements.
 
 ---
 
@@ -54,5 +55,4 @@ Ships are made of modular parts.
 
 ## Open questions
 
-- What does a drill break matter into, if anything?
-- Does the mass cannon use iron as ammo, or does it also do something else?
+None right now.
