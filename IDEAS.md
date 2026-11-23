@@ -53,6 +53,22 @@ Ships are made of modular parts.
 
 ---
 
+## Space stations
+
+- Stations are spread throughout space.
+- Bring a station resources and it gives back rare materials.
+- Alternatively, put a whole asteroid into a station's open cargo bay.
+
+---
+
+## Control
+
+- Build multiple ships.
+- Detach control from a ship and control any ship you own.
+
+---
+
 ## Open questions
 
-None right now.
+- Which rare materials do stations give out?
+- Is there a limit on how far away you can control a ship from?
