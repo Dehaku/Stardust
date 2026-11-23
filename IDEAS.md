@@ -20,6 +20,9 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Heat:** tracked per part. Heat spreads between neighboring parts over time.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
+- **Converters:** fusion and fission converters take massive amounts of electricity, so the converter chain only works at huge scale.
+- **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits.
+- **Tiers:** each part tier is 1 block wider and 10x better than the last. Grinders and generators grow 2 blocks wider per tier and are still 10x better.
 
 ---
 
