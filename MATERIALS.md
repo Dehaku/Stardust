@@ -20,8 +20,8 @@ Converter recipes are loose, not real physics. Each one shows how many of each i
 | Name | Description | Harvested from | Cost to make |
 |---|---|---|---|
 | Water ice | Frozen water from comets and moons | Comets and ice moons | Hydrogen, Oxygen |
-| Regolith | Loose dust and rock on airless bodies | — | Found naturally, not made |
-| Basalt | Volcanic rock, a common building stone | — | Found naturally, not made |
+| Regolith | Loose dust and rock on airless bodies | Airless moons and asteroids | Found naturally, not made |
+| Basalt | Volcanic rock, a common building stone | Volcanic planets and moons | Found naturally, not made |
 | Titanium alloy | Strong hull plating | — | Titanium, Aluminum |
 | Carbon fiber | Light structural composite | — | Carbon, Polymer |
 | Ceramic tile | Heat-resistant plating | — | Silicon, Oxygen, Aluminum |
