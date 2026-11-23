@@ -2,6 +2,12 @@
 
 Reference list for crafting and matter. The **Cost to make** column is intentionally blank for now.
 
+## Recipe rules
+
+- A part never has more than 2 material intermediaries between the elements and the part.
+- Example: Iron → Steel → Armor plating → Reinforced hull vessel blocks. Steel and Armor plating are the 2 intermediaries. Iron is an element, so it doesn't count.
+- Don't add more stages than this unless explicitly told to. If a recipe does add stages, say so.
+
 ---
 
 ## Materials
