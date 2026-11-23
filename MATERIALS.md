@@ -30,6 +30,11 @@ Reference list for crafting and matter. The **Cost to make** column is intention
 | Graphite | Lubricant, heat spreader, and reactor moderator | |
 | Explosive charge | Breaks up bodies for drills and mining | |
 | Kinetic Ammo | Ammo for the mass cannon. Can be made from multiple materials and elements | |
+| Steel | Iron alloyed with carbon. Strong, common structural metal | |
+| Armor plating | Layered composite plating that absorbs hits | |
+| Bearings / actuators | Moving parts for gyroscopes, mooring clamps, and cargo bay doors | |
+| Aerogel | Extremely light insulation for heat-sensitive parts | |
+| Radiator panels | High-surface panels that shed heat into space | |
 
 ---
 
@@ -67,6 +72,8 @@ Reference list for crafting and matter. The **Cost to make** column is intention
 | Platinum | Dense, corrosion-resistant metal used in catalysts | |
 | Gold | Dense, conductive metal used in electronics | |
 | Uranium | Radioactive element used as fission fuel | |
+| Lead | Dense metal that blocks radiation | |
+| Neodymium | Rare earth metal used in strong magnets | |
 
 ---
 
