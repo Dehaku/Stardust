@@ -34,6 +34,15 @@ Ships are made of modular parts.
 | Fusion generator | Makes intense heat out of very little, rare, matter | |
 | Warp drive | Teleports the vessel | Costs Movium |
 | Hyperdrive | Lets the vessel go really fast, as long as it's on | Costs Movium |
+| Scoop | Collects trace matter from open space, or lots of matter from gas giants and stars, including helium-3 | |
+| Shield generator | Absorbs damage | Costs electricity |
+| Sensor array | Reveals bodies at range and shows their matter makeup | |
+| Autopilot | Holds a course or station so you can work on other vessels | |
+| Gyroscope | Rotates the ship without thrust | |
+| Refinery | Sorts mixed matter into pure elements | |
+| Mooring clamp | Holds a body steady for drills and grinders | |
+| Coolant pump | Moves heat from one part to another on purpose | |
+| Docking clamp | Joins two vessels so they move as one | |
 
 ---
 
@@ -46,7 +55,6 @@ Ships are made of modular parts.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Kinetic Ammo:** the mass cannon's ammo. Can be made from multiple materials and elements.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
-- **Movium:** a rare material. Tractor beams, hyperdrives, and warp drives all cost it.
 
 ---
 
@@ -55,6 +63,19 @@ Ships are made of modular parts.
 - **Copy and paste:** a feature.
 - **Build time:** parts take 10 seconds by default. Some parts take longer.
 - **Placing parts:** select a block from the build menu, then click a face of an existing block. The new block builds off that surface.
+
+---
+
+## Rare materials
+
+- **Movium:** tractor beams, hyperdrives, and warp drives all cost it.
+- **Helium-3:** fuel for the fusion generator.
+- **Cryonite:** very cold material for heat sinks and coolant.
+- **Neutronium:** extremely dense, found near neutron stars. Used for fission and armor.
+- **Pyrium:** burns hot. Fuel for the burner.
+- **Voidglass:** transparent and heat-resistant. Used for sensors and shielding.
+- **Gravitite:** pulls on nearby bodies. Used for tractor-beam-like parts.
+- **Starsteel:** metal forged from stellar matter. Used for hulls that need to survive close to stars.
 
 ---
 
