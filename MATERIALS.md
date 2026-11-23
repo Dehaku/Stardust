@@ -1,6 +1,8 @@
 # Stardust: Materials and Elements
 
-Reference list for crafting and matter. Elements can be found and harvested, and they can also be made by converters. **Harvested from** shows where they're found, and **Cost to make** shows the inputs and converter that can make them. The converter recipes are loose, not real physics.
+Reference list for crafting and matter. Elements can be found and harvested, and they can also be made by converters. **Harvested from** shows where they're found, and **Cost to make** shows the inputs and converter that can make them.
+
+Converter recipes are loose, not real physics. Each one shows how many of each input make how many outputs, with the amounts set by atomic weight so the total weight going in roughly matches the total coming out. Fission converters can give byproducts when the weights need to balance.
 
 ## Recipe rules
 
@@ -45,38 +47,38 @@ Reference list for crafting and matter. Elements can be found and harvested, and
 
 | Name | Description | Harvested from | Cost to make |
 |---|---|---|---|
-| Hydrogen | Most common element in the universe, fuels stars | Gas giants and stars (scoop) | Lithium (fission converter) |
-| Helium | Second most common element, light and inert | Gas giants and stars (scoop) | Uranium (fission converter) |
-| Lithium | Light metal used in batteries | Asteroids and planetary crust | Boron (fission converter) |
-| Beryllium | Light, stiff metal used in reflectors and shielding | Moons and asteroids | Helium, Helium (fusion converter) |
-| Boron | Hard element used in shielding and control rods | Asteroids | Beryllium, Helium (fusion converter) |
-| Carbon | Basis of organic matter and most materials | Asteroids and planetary crust | Helium, Hydrogen (fusion converter) |
-| Nitrogen | Makes up most of the air on many worlds | Gas giant atmospheres (scoop) | Carbon, Hydrogen (fusion converter) |
-| Oxygen | Reactive gas used in combustion and life support | Ice moons and planet atmospheres | Carbon, Helium (fusion converter) |
-| Fluorine | Most reactive element, used in refining | Asteroids (rare) | Nitrogen, Hydrogen (fusion converter) |
-| Neon | Noble gas used in lighting and displays | Gas giants (scoop) | Oxygen, Helium (fusion converter) |
-| Magnesium | Light metal used in alloys | Asteroids and planetary crust | Neon, Helium (fusion converter) |
-| Aluminum | Light, common structural metal | Asteroids and planetary crust | Magnesium, Hydrogen (fusion converter) |
-| Silicon | Basis of chips, glass, and sensors | Asteroids and planetary crust | Magnesium, Helium (fusion converter) |
-| Phosphorus | Reactive element, used in fertilizer and matches | Asteroids | Silicon, Hydrogen (fusion converter) |
-| Sulfur | Yellow element found around volcanoes | Volcanic moons | Silicon, Helium (fusion converter) |
-| Chlorine | Reactive gas used in purification | Salt-rich asteroids | Sulfur, Hydrogen (fusion converter) |
-| Argon | Inert gas used in shielding gas | Planet atmospheres (scoop) | Sulfur, Helium (fusion converter) |
-| Potassium | Reactive metal found in salts | Asteroids and planetary crust | Argon (fission converter) |
-| Calcium | Common metal in bone and rock | Planetary crust | Argon, Helium (fusion converter) |
-| Titanium | Strong, light metal used in alloys | Planetary crust | Calcium, Helium (fusion converter) |
-| Chromium | Hard metal used in plating | Asteroids | Titanium, Helium (fusion converter) |
-| Manganese | Metal used in steel alloys | Asteroids | Chromium, Hydrogen (fusion converter) |
-| Iron | Most common metal in planetary cores, used in steel | Asteroid cores and planetary crust | Silicon, Oxygen (fusion converter) |
-| Nickel | Metal found in iron meteorites, used in alloys | Asteroid cores and iron meteorites | Iron, Helium (fusion converter) |
-| Copper | Excellent electrical conductor | Asteroids | Nickel, Hydrogen (fusion converter) |
-| Zinc | Metal used in plating and batteries | Asteroids | Copper, Hydrogen (fusion converter) |
-| Tungsten | Very dense, heat-resistant metal | Asteroids and planetary crust | Neodymium (fission converter) |
-| Platinum | Dense, corrosion-resistant metal used in catalysts | Asteroid cores (rare) | Copper, Nickel (fusion converter) |
-| Gold | Dense, conductive metal used in electronics | Asteroid cores (rare) | Platinum, Tungsten (fusion converter) |
-| Uranium | Radioactive element used as fission fuel | Asteroids and planetary crust | Lead, Gold (fusion converter) |
-| Lead | Dense metal that blocks radiation | Planetary crust | Zinc, Tungsten (fusion converter) |
-| Neodymium | Rare earth metal used in strong magnets | Planetary crust (rare) | Nickel, Iron (fusion converter) |
+| Hydrogen | Most common element in the universe, fuels stars | Gas giants and stars (scoop) | 1 Lithium → 3 Hydrogen + 1 Helium (fission converter) |
+| Helium | Second most common element, light and inert | Gas giants and stars (scoop) | 1 Uranium → 8 Helium + 1 Lead (fission converter) |
+| Lithium | Light metal used in batteries | Asteroids and planetary crust | 1 Boron → 1 Lithium + 1 Helium (fission converter) |
+| Beryllium | Light, stiff metal used in reflectors and shielding | Moons and asteroids | 9 Helium → 4 Beryllium (fusion converter) |
+| Boron | Hard element used in shielding and control rods | Asteroids | 1 Beryllium + 1 Helium → 1 Boron + 2 Hydrogen (fusion converter) |
+| Carbon | Basis of organic matter and most materials | Asteroids and planetary crust | 2 Helium + 4 Hydrogen → 1 Carbon (fusion converter) |
+| Nitrogen | Makes up most of the air on many worlds | Gas giant atmospheres (scoop) | 1 Carbon + 2 Hydrogen → 1 Nitrogen (fusion converter) |
+| Oxygen | Reactive gas used in combustion and life support | Ice moons and planet atmospheres | 1 Carbon + 1 Helium → 1 Oxygen (fusion converter) |
+| Fluorine | Most reactive element, used in refining | Asteroids (rare) | 1 Nitrogen + 5 Hydrogen → 1 Fluorine (fusion converter) |
+| Neon | Noble gas used in lighting and displays | Gas giants (scoop) | 1 Oxygen + 1 Helium → 1 Neon (fusion converter) |
+| Magnesium | Light metal used in alloys | Asteroids and planetary crust | 1 Neon + 1 Helium → 1 Magnesium (fusion converter) |
+| Aluminum | Light, common structural metal | Asteroids and planetary crust | 1 Magnesium + 3 Hydrogen → 1 Aluminum (fusion converter) |
+| Silicon | Basis of chips, glass, and sensors | Asteroids and planetary crust | 1 Magnesium + 1 Helium → 1 Silicon (fusion converter) |
+| Phosphorus | Reactive element, used in fertilizer and matches | Asteroids | 1 Silicon + 3 Hydrogen → 1 Phosphorus (fusion converter) |
+| Sulfur | Yellow element found around volcanoes | Volcanic moons | 1 Silicon + 1 Helium → 1 Sulfur (fusion converter) |
+| Chlorine | Reactive gas used in purification | Salt-rich asteroids | 1 Sulfur + 3 Hydrogen → 1 Chlorine (fusion converter) |
+| Argon | Inert gas used in shielding gas | Planet atmospheres (scoop) | 1 Sulfur + 2 Helium → 1 Argon (fusion converter) |
+| Potassium | Reactive metal found in salts | Asteroids and planetary crust | 1 Argon → 1 Potassium + 1 Hydrogen (fission converter) |
+| Calcium | Common metal in bone and rock | Planetary crust | 1 Argon + 1 Helium → 1 Calcium + 4 Hydrogen (fusion converter) |
+| Titanium | Strong, light metal used in alloys | Planetary crust | 1 Calcium + 2 Helium → 1 Titanium (fusion converter) |
+| Chromium | Hard metal used in plating | Asteroids | 1 Titanium + 1 Helium → 1 Chromium (fusion converter) |
+| Manganese | Metal used in steel alloys | Asteroids | 1 Chromium + 3 Hydrogen → 1 Manganese (fusion converter) |
+| Iron | Most common metal in planetary cores, used in steel | Asteroid cores and planetary crust | 3 Silicon + 2 Oxygen → 2 Iron (fusion converter) |
+| Nickel | Metal found in iron meteorites, used in alloys | Asteroid cores and iron meteorites | 1 Iron + 1 Helium → 1 Nickel + 1 Hydrogen (fusion converter) |
+| Copper | Excellent electrical conductor | Asteroids | 1 Nickel + 5 Hydrogen → 1 Copper (fusion converter) |
+| Zinc | Metal used in plating and batteries | Asteroids | 1 Copper + 1 Hydrogen → 1 Zinc (fusion converter) |
+| Tungsten | Very dense, heat-resistant metal | Asteroids and planetary crust | 1 Neodymium + 1 Argon → 1 Tungsten (fusion converter) |
+| Platinum | Dense, corrosion-resistant metal used in catalysts | Asteroid cores (rare) | 1 Tungsten + 1 Boron → 1 Platinum (fusion converter) |
+| Gold | Dense, conductive metal used in electronics | Asteroid cores (rare) | 1 Platinum + 1 Tungsten → 2 Gold (fusion converter) |
+| Uranium | Radioactive element used as fission fuel | Asteroids and planetary crust | 1 Lead + 1 Phosphorus → 1 Uranium (fusion converter) |
+| Lead | Dense metal that blocks radiation | Planetary crust | 1 Tungsten + 1 Magnesium → 1 Lead (fusion converter) |
+| Neodymium | Rare earth metal used in strong magnets | Planetary crust (rare) | 5 Nickel + 5 Iron → 4 Neodymium (fusion converter) |
 
 ---
 
