@@ -1,11 +1,12 @@
 # Stardust: Materials and Elements
 
-Reference list for crafting and matter. The **Cost to make** column is intentionally blank for now.
+Reference list for crafting and matter. Elements are raw and aren't crafted, so their **Cost to make** column is left blank.
 
 ## Recipe rules
 
 - A part never has more than 2 material intermediaries between the elements and the part.
 - Example: Iron → Steel → Armor plating → Reinforced hull vessel blocks. Steel and Armor plating are the 2 intermediaries. Iron is an element, so it doesn't count.
+- Counting: a material made only from elements is 1 step. A material made from a 1-step material is 2 steps. Nothing goes deeper than 2 steps, and no part uses a material deeper than 2 steps.
 - Don't add more stages than this unless explicitly told to. If a recipe does add stages, say so.
 
 ---
@@ -14,28 +15,28 @@ Reference list for crafting and matter. The **Cost to make** column is intention
 
 | Name | Description | Cost to make |
 |---|---|---|
-| Water ice | Frozen water from comets and moons | |
-| Regolith | Loose dust and rock on airless bodies | |
-| Basalt | Volcanic rock, a common building stone | |
-| Titanium alloy | Strong hull plating | |
-| Carbon fiber | Light structural composite | |
-| Ceramic tile | Heat-resistant plating | |
-| Polymer | Insulation and seals | |
-| Glass | Windows and lenses | |
-| Copper wire | Conducts electricity | |
-| Circuit board | Electronics for control parts | |
-| Superconductor coil | Low-loss power transfer | |
-| Propellant | Fuel for thrusters | |
-| Ammonia | Volatile compound from ice worlds, used as coolant and propellant | |
-| Graphite | Lubricant, heat spreader, and reactor moderator | |
-| Explosive charge | Breaks up bodies for drills and mining | |
-| Kinetic Ammo | Ammo for the mass cannon. Can be made from multiple materials and elements | |
-| Steel | Iron alloyed with carbon. Strong, common structural metal | |
-| Armor plating | Layered composite plating that absorbs hits | |
-| Bearing | Low-friction support for spinning parts, such as gyroscope rotors | |
-| Actuator | Powered motion for clamps, cargo bay doors, and other moving parts | |
-| Aerogel | Extremely light insulation for heat-sensitive parts | |
-| Radiator panels | High-surface panels that shed heat into space | |
+| Water ice | Frozen water from comets and moons | Hydrogen, Oxygen |
+| Regolith | Loose dust and rock on airless bodies | Found naturally, not made |
+| Basalt | Volcanic rock, a common building stone | Found naturally, not made |
+| Titanium alloy | Strong hull plating | Titanium, Aluminum |
+| Carbon fiber | Light structural composite | Carbon, Polymer |
+| Ceramic tile | Heat-resistant plating | Silicon, Oxygen, Aluminum |
+| Polymer | Insulation and seals | Carbon, Hydrogen |
+| Glass | Windows and lenses | Silicon, Oxygen, Calcium |
+| Copper wire | Conducts electricity | Copper |
+| Circuit board | Electronics for control parts | Copper wire, Silicon, Gold |
+| Superconductor coil | Low-loss power transfer | Copper wire, Titanium alloy, Helium |
+| Propellant | Fuel for thrusters | Hydrogen, Oxygen |
+| Ammonia | Volatile compound from ice worlds, used as coolant and propellant | Nitrogen, Hydrogen |
+| Graphite | Lubricant, heat spreader, and reactor moderator | Carbon |
+| Explosive charge | Breaks up bodies for drills and mining | Nitrogen, Carbon, Oxygen |
+| Kinetic Ammo | Ammo for the mass cannon. Can be made from multiple materials and elements | Tungsten, Lead, Steel |
+| Steel | Iron alloyed with carbon. Strong, common structural metal | Iron, Carbon |
+| Armor plating | Layered composite plating that absorbs hits | Steel, Ceramic tile |
+| Bearing | Low-friction support for spinning parts, such as gyroscope rotors | Steel, Graphite |
+| Actuator | Powered motion for clamps, cargo bay doors, and other moving parts | Copper wire, Steel |
+| Aerogel | Extremely light insulation for heat-sensitive parts | Silicon, Oxygen |
+| Radiator panels | High-surface panels that shed heat into space | Aluminum, Graphite |
 
 ---
 
@@ -84,11 +85,11 @@ These are not meant to be easily produced.
 
 | Name | Description | Cost to make |
 |---|---|---|
-| Moovium | Required by tractor beams, hyperdrives, and warp drives. Flavor: comes from cows | |
-| Helium-3 | Fuel for the fusion generator | |
-| Cryonite | Very cold material for heat sinks and coolant | |
-| Neutronium | Extremely dense, found near neutron stars. Used for fission and armor | |
-| Pyrium | Burns hot. Fuel for the burner | |
-| Voidglass | Transparent and heat-resistant. Used for sensors and shielding | |
-| Gravitite | Pulls on nearby bodies. Used for tractor-beam-like parts | |
-| Starsteel | Metal forged from stellar matter. Used for hulls that need to survive close to stars | |
+| Moovium | Required by tractor beams, hyperdrives, and warp drives. Flavor: comes from cows | Calcium, Phosphorus, Potassium |
+| Helium-3 | Fuel for the fusion generator | Helium |
+| Cryonite | Very cold material for heat sinks and coolant | Helium, Nitrogen, Argon |
+| Neutronium | Extremely dense, found near neutron stars. Used for fission and armor | Uranium, Tungsten |
+| Pyrium | Burns hot. Fuel for the burner | Magnesium, Phosphorus, Sulfur |
+| Voidglass | Transparent and heat-resistant. Used for sensors and shielding | Glass, Boron |
+| Gravitite | Pulls on nearby bodies. Used for tractor-beam-like parts | Neodymium, Tungsten |
+| Starsteel | Metal forged from stellar matter. Used for hulls that need to survive close to stars | Iron, Nickel, Helium-3 |
