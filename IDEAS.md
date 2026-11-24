@@ -48,6 +48,10 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Camera:** free orbit camera. A translucent ghost of the part follows your cursor onto the face you point at.
 - **Copy and paste:** box-select blocks and copy them. Paste as a ghost you can rotate and move, then confirm. The full cost is taken from storage and drones build it.
 - **Removing blocks:** drones take the part off and bring it back to storage as a part. You can hold parts in storage and place them later, the same as parts bought from stations.
+- **Stored parts:** they use storage space by mass, the same unit as matter.
+- **Placing stored parts:** placing a part you already have takes the part's normal build time.
+- **Unlocking tiers:** each tier of each part is its own blueprint, bought at trade stations. You rebuild larger and the old part goes back to storage.
+- **Selling parts:** stations buy parts at full price, the same as they sell them for.
 
 ---
 
