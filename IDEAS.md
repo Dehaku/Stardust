@@ -36,6 +36,10 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Build time:** parts take 10 seconds by default. Some parts take longer.
 - **Placing parts:** select a block from the build menu, then click a face of an existing block. The new block builds off that surface.
 - **Builder drones:** a Builder bay releases 1 drone per part being built. Each drone launches outward, curves toward the construction, and returns when it's done.
+- **Facing:** every part snaps to the 3D grid and rotates in 90° steps before you place it.
+- **Connections:** electricity and storage are ship-wide pools. Only heat depends on neighboring parts.
+- **Damage:** collisions can destroy blocks, and Reinforced hull is immune. Blocks that lose their connection to the ship drift away as loose bodies.
+- **Paying:** the full cost leaves ship storage when you place a block. Cancelling a block that's still waiting for a drone refunds it.
 
 ---
 
