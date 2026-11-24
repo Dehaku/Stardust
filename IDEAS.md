@@ -47,9 +47,9 @@ Body types, what they're made of, and spawn weights are in `BODIES.md`.
 
 ## Celestial ranks
 
-- Your ship's total mass sets its rank: Asteroid, then Moon, Planet, and Star.
-- Each rank unlocks new abilities. A rank can have more than one unlock.
-- Mass thresholds and unlocks are open questions.
+- Your ship's total mass sets your title: Asteroid, then Moon, Planet, and Star.
+- A simple display shows your current title and the percentage of the way to the next rank.
+- Ranks are just titles. They don't unlock anything.
 
 ---
 
@@ -90,5 +90,5 @@ Station types and spawn weights are in `POIS.md`.
 - Stock is per ship, so how do ships transfer matter and parts between each other?
 - Units will be measured by mass. How does mined element mass turn into material amounts? This decides the amounts in material recipes.
 - Do Specialized producers need their rare material's recipe inputs, or do they make it from nothing?
-- What mass does each celestial rank need, and what does each rank unlock?
+- What mass does each celestial rank need?
 - Gas giants, comets, and neutron stars are named as harvest sources but aren't in `BODIES.md` yet. Should they be added?

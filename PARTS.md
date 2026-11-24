@@ -26,7 +26,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Fabricator | Makes level 1 materials (made only from elements) | Steel, Actuator, Copper wire | 100 kW | Medium |
 | Assembler | Makes level 2 materials (made from level 1 materials), plus Builder drones (level 3) | Circuit board, Actuator, Steel | 100 kW | Medium |
 | Builder bay | Holds Builder drones and releases 1 per part being built. Each drone launches outward, curves toward the construction, and returns when it's done | Steel, Actuator, Circuit board | 100 kW | Low |
-| Electrolysis | Turns water ice into hydrogen and oxygen | Copper wire, Titanium alloy | 100 kW | Low |
+| Electrolysis | Turns water ice into hydrogen and oxygen, and ammonia into nitrogen and hydrogen | Copper wire, Titanium alloy | 100 kW | Low |
 | Heat sink | Holds more heat before reaching dangerous levels | Graphite, Ceramic tile | None | None (stores heat) |
 | Radiator | Dissipates heat into space | Radiator panel, Steel | None | None (removes heat) |
 | Insulation | Resists 95% of temperature exchange with neighboring parts | Aerogel, Tungsten | None | None |
@@ -45,8 +45,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Sensor array | Reveals bodies at range and shows their matter makeup | Glass, Circuit board, Silicon | 10 kW | Low |
 | Autopilot | Holds a course or station so you can work on other vessels | Circuit board, Copper wire | 1 kW | None |
 | Gyroscope | Rotates the ship without thrust | Bearing, Steel | 10 kW | Low |
-| Refinery | Sorts mixed matter into pure elements | Steel, Ceramic tile, Actuator | 100 kW | Medium |
-| Regolith refinery | Sorts regolith into pure elements. Massive: 5 blocks wide, even the weakest one, like the grinder | Steel, Actuator, Ceramic tile | 100 kW | Medium |
+| Refinery | Breaks down natural materials, like regolith and basalt, into elements. Doesn't handle water ice or ammonia, which go through electrolysis. Massive: 5 blocks wide, even the weakest one, like the grinder | Steel, Actuator, Ceramic tile | 100 kW | Medium |
 | Mooring clamp | Holds a body steady for drills and grinders | Steel, Actuator | 10 kW | None |
 | Docking clamp | Joins two vessels so they move as one | Steel, Actuator | 1 kW | None |
 
