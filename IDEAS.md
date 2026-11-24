@@ -44,6 +44,10 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Sizes:** every part has a fixed size per tier. Parts aren't stretchable.
 - **Build timing:** you can build at any time, even while flying. Drones chase the ship.
 - **Builder bay capacity:** each Builder bay holds a set number of drones, and higher tiers hold 10x more. More bays means faster building.
+- **Block mass:** a block weighs what its materials weigh (its cost to make, in mass units). Material choices change how a ship flies.
+- **Camera:** free orbit camera. A translucent ghost of the part follows your cursor onto the face you point at.
+- **Copy and paste:** box-select blocks and copy them. Paste as a ghost you can rotate and move, then confirm. The full cost is taken from storage and drones build it.
+- **Removing blocks:** drones take the part off and bring it back to storage as a part. You can hold parts in storage and place them later, the same as parts bought from stations.
 
 ---
 
