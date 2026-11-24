@@ -16,13 +16,17 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 
 - **Matter:** any element or material that gets harvested, such as iron, silicon, helium, or hydrogen.
 - **Grinders:** always have odd funnels that make resource gathering more challenging. They're massive: 5 blocks wide, even the weakest one. This encourages moving bodies to stations.
-- **Part size:** parts take up multiple slots and are always cuboid.
-- **Heat:** tracked per part. Heat spreads between neighboring parts over time.
+- **Part size:** parts are 1 block unless stated otherwise. Parts can take up multiple slots and are always cuboid.
+- **Heat:** tracked per part. Heat spreads between neighboring parts over time. An overheated part shuts down until it cools to ambient temperature (21°C).
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
 - **Converters:** fusion and fission converters take massive amounts of electricity, so the converter chain only works at huge scale.
+- **Stock:** tracked per ship.
+- **Mining tools:** the mass cannon, laser cannon, and charge launcher are mining tools, not combat weapons.
+- **Starting out:** players get their first Fabricator and Assembler from stations, since both need level 2 materials to build.
 - **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits.
-- **Tiers:** each part tier is 1 block wider and 10x better than the last. Grinders and generators grow 2 blocks wider per tier and are still 10x better.
+- **Credits:** each element has a base price from its atomic weight times a rarity multiplier. Exact numbers wait on the mass units question below.
+- **Tiers:** each part tier is 1 block wider than the last, and its output, heat, and power use all go up 10x. Grinders and generators grow 2 blocks wider per tier, with the same 10x. Material cost goes up 9x per tier, so one big part is slightly cheaper than ten small ones and easier to manage.
 
 ---
 
@@ -31,20 +35,31 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Copy and paste:** a feature.
 - **Build time:** parts take 10 seconds by default. Some parts take longer.
 - **Placing parts:** select a block from the build menu, then click a face of an existing block. The new block builds off that surface.
+- **Builder drones:** a Builder bay releases 1 drone per part being built. Each drone launches outward, curves toward the construction, and returns when it's done.
 
 ---
 
-## Rare materials
+## Celestial bodies
 
-Moved to `MATERIALS.md`.
+Body types, what they're made of, and spawn weights are in `BODIES.md`.
+
+---
+
+## Celestial ranks
+
+- Your ship's total mass sets its rank: Asteroid, then Moon, Planet, and Star.
+- Each rank unlocks new abilities. A rank can have more than one unlock.
+- Mass thresholds and unlocks are open questions.
 
 ---
 
 ## Space stations
 
+Station types and spawn weights are in `POIS.md`.
+
 - Stations are spread throughout space.
-- Bring a station resources and it gives back rare materials.
-- Alternatively, put a whole asteroid into a station's open cargo bay.
+- Bring an Exchange station resources and it gives back rare materials.
+- Put a whole body into a Cargo station's open cargo bay and get paid credits for its full mass. There are no fees, only what it cost you to move it. Stations are excited to receive bodies.
 
 ---
 
@@ -70,4 +85,10 @@ Moved to `MATERIALS.md`.
 
 ## Open questions
 
-- Which rare materials do stations give out?
+- Which rare materials does each Exchange station give out?
+- What's the starting ship, and what does the early game look like?
+- Stock is per ship, so how do ships transfer matter and parts between each other?
+- Units will be measured by mass. How does mined element mass turn into material amounts? This decides the amounts in material recipes.
+- Do Specialized producers need their rare material's recipe inputs, or do they make it from nothing?
+- What mass does each celestial rank need, and what does each rank unlock?
+- Gas giants, comets, and neutron stars are named as harvest sources but aren't in `BODIES.md` yet. Should they be added?

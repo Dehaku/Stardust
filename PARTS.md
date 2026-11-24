@@ -1,48 +1,54 @@
 # Stardust: Parts
 
-Modular ship parts. Parts take up multiple slots and are always cuboid. Tiers and sizes are in IDEAS.md Notes.
+Modular ship parts. Parts are 1 block unless their function says otherwise. They can take up multiple slots and are always cuboid.
 
-**Cost to make:** the materials and elements it takes to build the part. Every material used is listed in `MATERIALS.md`, and recipes follow the 2-intermediary limit in that file.
-**Cost to use:** what the part consumes while running. **None** means it uses nothing.
+**Cost to make:** the materials and elements it takes to build the part. Every material used is listed in `MATERIALS.md`, and recipes follow the intermediary limit in that file.
+**Cost to use:** what the part consumes while running. **None** means it uses nothing. Electricity is given in kW, MW, or GW.
+**Heat made:** how much heat the part makes while running: None, Low, Medium, High, or Intense.
 **Alternatives:** items in brackets are options, and any one of them works. For example, `[Lithium, Zinc]` means either Lithium or Zinc.
+**Tiers:** all values are for tier 1. Each tier up is 10x better and uses 10x the power and makes 10x the heat. Material cost goes up 9x. See IDEAS.md Notes.
 
-| Part | Function | Cost to make | Cost to use |
-|---|---|---|---|
-| Hull / Frame | Structural base that other parts attach to | Titanium alloy, Carbon fiber | None |
-| Storage bay | Raises maximum matter capacity | Titanium alloy, Polymer | None |
-| Cargo bay | Carries whole bodies, if it can close on one | Steel, Actuator | Electricity |
-| Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks. Funnel-shaped intake. Massive: 5 blocks wide, even the weakest one (see IDEAS.md Notes) | Steel, Bearing | Electricity |
-| Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Tungsten, Steel | Tiny amount of electricity |
-| Mass cannon | Fires mass at targets | Steel, Copper wire | [Kinetic ammo, Regolith slug] |
-| Laser cannon | Fires a laser | Glass, Copper wire, Circuit board | A lot of electricity |
-| Tractor beam | Moves matter without touching it | Moovium | Electricity |
-| Thruster | Gives speed | Titanium alloy, Ceramic tile | Propellant |
-| Fusion converter | Fuses lighter elements into heavier ones | Superconductor coil, Circuit board, Tungsten | Massive electricity |
-| Fission converter | Breaks elements into smaller elements | Superconductor coil, Boron, Lead | Massive electricity |
-| Fabricator | Makes level 1 materials (made only from elements) | Steel, Actuator, Copper wire | Electricity |
-| Assembler | Makes level 2 materials (made from level 1 materials) | Circuit board, Actuator, Steel | Electricity |
-| Electrolysis | Turns water ice into hydrogen and oxygen | Copper wire, Titanium alloy | Electricity |
-| Heat sink | Holds more heat before reaching dangerous levels | Graphite, Ceramic tile | None |
-| Radiator | Dissipates heat into space | Radiator panel, Steel | None |
-| Heat ejector | Launches hot matter out, heavily lowering heat | Titanium alloy, Ceramic tile, Actuator | Matter |
-| Battery | Increases ship electricity capacity, in tiers from kilowatts to gigawatts and up | [Lithium, Zinc], Copper wire, Polymer | None |
-| Solar generator | Makes electricity from a nearby star. Output rises the closer it is and the more it faces the star directly | Glass, Circuit board, Silicon | None |
-| Thermal generator | Slowly turns high heat into electricity | Copper wire, Titanium alloy, Graphite | None |
-| Burner | Makes a lot of heat out of matter | Ceramic tile, Titanium alloy | Pyrium (most heat), or Hydrogen and Oxygen (less heat) |
-| Fission generator | Makes intense heat out of radioactive material | Lead, Boron, Steel | Uranium |
-| Fusion generator | Makes intense heat out of very little, rare, matter | Superconductor coil, Ceramic tile | Helium-3 |
-| Warp drive | Teleports the vessel | Moovium, Superconductor coil | Electricity |
-| Hyperdrive | Lets the vessel go really fast, as long as it's on | Moovium, Circuit board | Electricity |
-| Scoop | Collects trace matter from open space, or lots of matter from gas giants and stars, including helium-3 | Titanium alloy, Carbon fiber | Electricity |
-| Shield generator | Absorbs damage | Superconductor coil, Voidglass | Electricity |
-| Sensor array | Reveals bodies at range and shows their matter makeup | Glass, Circuit board, Silicon | Electricity |
-| Autopilot | Holds a course or station so you can work on other vessels | Circuit board, Copper wire | Electricity |
-| Gyroscope | Rotates the ship without thrust | Bearing, Steel | Electricity |
-| Refinery | Sorts mixed matter into pure elements | Steel, Ceramic tile, Actuator | Electricity |
-| Regolith refinery | Sorts regolith into pure elements. Massive: 5 blocks wide, even the weakest one, like the grinder | Steel, Actuator, Ceramic tile | Electricity |
-| Mooring clamp | Holds a body steady for drills and grinders | Steel, Actuator | Electricity |
-| Coolant pump | Moves heat from one part to another on purpose | Actuator, Copper wire, [Ammonia, Water ice] | Electricity |
-| Docking clamp | Joins two vessels so they move as one | Steel, Actuator | Electricity |
+| Part | Function | Cost to make | Cost to use | Heat made |
+|---|---|---|---|---|
+| Hull / Frame | Structural base that other parts attach to | Titanium alloy, Carbon fiber | None | None |
+| Reinforced hull | Hull block that's immune to collision damage. Useful for ramming and moving bodies kinetically | Armor plating | None | None |
+| Storage bay | Raises maximum matter capacity | Titanium alloy, Polymer | None | None |
+| Cargo bay | Carries whole bodies, if it can close on one | Steel, Actuator | 10 kW | None |
+| Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks. Funnel-shaped intake. Massive: 5 blocks wide, even the weakest one (see IDEAS.md Notes) | Steel, Bearing | 100 kW | High |
+| Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Tungsten, Steel | 1 kW | Medium |
+| Mass cannon | Mining tool. Fires mass at bodies to break them up | Steel, Copper wire | [Kinetic ammo, Regolith slug] | Low |
+| Laser cannon | Mining tool. Cuts into bodies with a laser | Glass, Copper wire, Circuit board | 1 MW | High |
+| Charge launcher | Mining tool. Launches explosive charges that go off 10 seconds later | Steel, Actuator | Explosive charge | Low |
+| Tractor beam | Moves matter without touching it | Moovium | 100 kW | Low |
+| Thruster | Gives speed | Titanium alloy, Ceramic tile | Propellant | High |
+| Fusion converter | Fuses lighter elements into heavier ones | Superconductor coil, Circuit board, Tungsten | 1 GW | Intense |
+| Fission converter | Breaks elements into smaller elements | Superconductor coil, Boron, Lead | 1 GW | Intense |
+| Fabricator | Makes level 1 materials (made only from elements) | Steel, Actuator, Copper wire | 100 kW | Medium |
+| Assembler | Makes level 2 materials (made from level 1 materials), plus Builder drones (level 3) | Circuit board, Actuator, Steel | 100 kW | Medium |
+| Builder bay | Holds Builder drones and releases 1 per part being built. Each drone launches outward, curves toward the construction, and returns when it's done | Steel, Actuator, Circuit board | 100 kW | Low |
+| Electrolysis | Turns water ice into hydrogen and oxygen | Copper wire, Titanium alloy | 100 kW | Low |
+| Heat sink | Holds more heat before reaching dangerous levels | Graphite, Ceramic tile | None | None (stores heat) |
+| Radiator | Dissipates heat into space | Radiator panel, Steel | None | None (removes heat) |
+| Insulation | Resists 95% of temperature exchange with neighboring parts | Aerogel, Tungsten | None | None |
+| Heat ejector | Launches hot matter out, heavily lowering heat | Titanium alloy, Ceramic tile, Actuator | Matter | None (removes heat) |
+| Coolant pump | Moves heat from one part to another on purpose. Built with Cryonite, it moves heat 10x better than with Ammonia or Water ice | Actuator, Copper wire, [Ammonia, Water ice, Cryonite] | 10 kW | None |
+| Battery | Increases ship electricity capacity, in tiers from kilowatts to gigawatts and up | [Lithium, Zinc], Copper wire, Polymer | None | Low |
+| Solar generator | Makes electricity from a nearby star. Output rises the closer it is and the more it faces the star directly | Glass, Circuit board, Silicon | None | Low |
+| Thermal generator | Slowly turns high heat into electricity | Copper wire, Titanium alloy, Graphite | None | None (uses heat) |
+| Burner | Makes a lot of heat out of matter | Ceramic tile, Titanium alloy | Pyrium (most heat), or Hydrogen and Oxygen (less heat) | High |
+| Fission generator | Makes intense heat out of radioactive material | Lead, Boron, Steel | Uranium | Intense |
+| Fusion generator | Makes intense heat out of very little, rare, matter | Superconductor coil, Ceramic tile | Helium-3 | Intense |
+| Warp drive | Teleports the vessel | Moovium, Superconductor coil | 1 MW | High |
+| Hyperdrive | Lets the vessel go really fast, as long as it's on | Moovium, Circuit board | 1 MW | High |
+| Scoop | Collects trace matter from open space, or lots of matter from gas giants and stars, including helium-3 | Titanium alloy, Carbon fiber | 10 kW | Medium |
+| Shield generator | Absorbs damage | Superconductor coil, Voidglass | 100 kW | Medium |
+| Sensor array | Reveals bodies at range and shows their matter makeup | Glass, Circuit board, Silicon | 10 kW | Low |
+| Autopilot | Holds a course or station so you can work on other vessels | Circuit board, Copper wire | 1 kW | None |
+| Gyroscope | Rotates the ship without thrust | Bearing, Steel | 10 kW | Low |
+| Refinery | Sorts mixed matter into pure elements | Steel, Ceramic tile, Actuator | 100 kW | Medium |
+| Regolith refinery | Sorts regolith into pure elements. Massive: 5 blocks wide, even the weakest one, like the grinder | Steel, Actuator, Ceramic tile | 100 kW | Medium |
+| Mooring clamp | Holds a body steady for drills and grinders | Steel, Actuator | 10 kW | None |
+| Docking clamp | Joins two vessels so they move as one | Steel, Actuator | 1 kW | None |
 
 ---
 
@@ -50,13 +56,13 @@ Modular ship parts. Parts take up multiple slots and are always cuboid. Tiers an
 
 Each one makes a single rare material. They can't be built. They're gained from station quests or by looting derelict ships in the void (rare POIs, see POIS.md). Their running cost is low.
 
-| Part | Function | Cost to make | Cost to use |
-|---|---|---|---|
-| Specialized producer [Moovium] | Makes Moovium only | Not buildable | Tiny amount of electricity |
-| Specialized producer [Helium-3] | Makes Helium-3 only | Not buildable | Tiny amount of electricity |
-| Specialized producer [Cryonite] | Makes Cryonite only | Not buildable | Tiny amount of electricity |
-| Specialized producer [Neutronium] | Makes Neutronium only | Not buildable | Tiny amount of electricity |
-| Specialized producer [Pyrium] | Makes Pyrium only | Not buildable | Tiny amount of electricity |
-| Specialized producer [Voidglass] | Makes Voidglass only | Not buildable | Tiny amount of electricity |
-| Specialized producer [Gravitite] | Makes Gravitite only | Not buildable | Tiny amount of electricity |
-| Specialized producer [Starsteel] | Makes Starsteel only | Not buildable | Tiny amount of electricity |
+| Part | Function | Cost to make | Cost to use | Heat made |
+|---|---|---|---|---|
+| Specialized producer [Moovium] | Makes Moovium only | Not buildable | 1 kW | Low |
+| Specialized producer [Helium-3] | Makes Helium-3 only | Not buildable | 1 kW | Low |
+| Specialized producer [Cryonite] | Makes Cryonite only | Not buildable | 1 kW | Low |
+| Specialized producer [Neutronium] | Makes Neutronium only | Not buildable | 1 kW | Low |
+| Specialized producer [Pyrium] | Makes Pyrium only | Not buildable | 1 kW | Low |
+| Specialized producer [Voidglass] | Makes Voidglass only | Not buildable | 1 kW | Low |
+| Specialized producer [Gravitite] | Makes Gravitite only | Not buildable | 1 kW | Low |
+| Specialized producer [Starsteel] | Makes Starsteel only | Not buildable | 1 kW | Low |

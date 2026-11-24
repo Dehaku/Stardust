@@ -12,6 +12,7 @@ Converter recipes are loose, not real physics. Each one shows how many of each i
 - Elements are exempt from the limit, since they can be found and harvested. Converter recipes for elements can chain as deep as they like.
 - Don't add more stages than this unless explicitly told to. If a recipe does add stages, say so.
 - Items in brackets are alternatives, and any one of them works.
+- Exception: Builder drone is a level 3 material (made from level 2 materials), added by explicit request.
 
 ---
 
@@ -42,6 +43,7 @@ Converter recipes are loose, not real physics. Each one shows how many of each i
 | Actuator | Powered motion for clamps, cargo bay doors, and other moving parts | — | Copper wire, Steel |
 | Aerogel | Extremely light insulation for heat-sensitive parts | — | Silicon, Oxygen |
 | Radiator panel | High-surface panel that sheds heat into space | — | Aluminum, Graphite |
+| Builder drone | Small drone that flies out of a Builder bay and builds parts. Level 3 | — | Circuit board, Actuator, Carbon fiber |
 
 ---
 
