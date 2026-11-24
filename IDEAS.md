@@ -63,7 +63,8 @@ Moved to `MATERIALS.md`.
 - Each recipe has a min/max double slider for auto production. When stock drops to the min, crafting starts. When stock reaches the max, it stops. The min can't go above the max.
 - Groups: make custom groups and fold or unfold each one.
 - Each group has an on/off switch that toggles all of its recipes at once.
-- Drag recipes between groups to move them. Drag within a group to reorder.
+- Drag recipes between groups to move them.
+- Paint-drag to set machines, like Rimworld's work priority menu: click and hold a recipe in one machine's slot, then drag across other machines' slots. Each slot the drag passes over is set to that recipe. Example: in a line of 5 unset fabricators, set one to Kinetic ammo, drag from it across the other 4, and all 5 are set to Kinetic ammo.
 
 ---
 
