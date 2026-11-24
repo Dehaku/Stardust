@@ -40,6 +40,10 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Connections:** electricity and storage are ship-wide pools. Only heat depends on neighboring parts.
 - **Damage:** collisions can destroy blocks, and Reinforced hull is immune. Blocks that lose their connection to the ship drift away as loose bodies.
 - **Paying:** the full cost leaves ship storage when you place a block. Cancelling a block that's still waiting for a drone refunds it.
+- **Flight model:** full center of mass and torque. Block mass shifts the center of mass, and off-center thrust spins the ship, so thruster placement and gyroscopes matter.
+- **Sizes:** every part has a fixed size per tier. Parts aren't stretchable.
+- **Build timing:** you can build at any time, even while flying. Drones chase the ship.
+- **Builder bay capacity:** each Builder bay holds a set number of drones, and higher tiers hold 10x more. More bays means faster building.
 
 ---
 
