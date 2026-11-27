@@ -14,11 +14,11 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Reinforced hull | Hull block that's immune to collision damage. Useful for ramming and moving bodies kinetically | Armor plating | None | None |
 | Storage bay | Raises maximum matter capacity | Titanium alloy, Polymer | None | None |
 | Cargo bay | Carries whole bodies, if it can close on one | Steel, Actuator | 10 kW | None |
-| Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks. Funnel-shaped intake. Massive: 5 blocks wide, even the weakest one (see IDEAS.md Notes) | Steel, Bearing | 100 kW | High |
+| Grinder | Slowly melts bodies in its grind range, collecting matter as the body shrinks. Funnel-shaped intake with a fixed odd shape, and only matter passing through its opening is collected. Massive: 5 blocks wide, even the weakest one (see IDEAS.md Notes) | Steel, Bearing | 100 kW | High |
 | Drill | Turns a big body into multiple smaller ones, losing some mass in the process | Tungsten, Steel | 1 kW | Medium |
-| Mass cannon | Mining tool. Fires mass at bodies to break them up | Steel, Copper wire | [Kinetic ammo, Regolith slug] | Low |
-| Laser cannon | Mining tool. Cuts into bodies with a laser | Glass, Copper wire, Circuit board | 1 MW | High |
-| Charge launcher | Mining tool. Launches explosive charges that go off 10 seconds later | Steel, Actuator | Explosive charge | Low |
+| Mass cannon | Mining tool. Chips pieces off a body for drills and grinders to work on | Steel, Copper wire | [Kinetic ammo, Regolith slug] | Low |
+| Laser cannon | Mining tool. Slices a body precisely in a chosen direction | Glass, Copper wire, Circuit board | 1 MW | High |
+| Charge launcher | Mining tool. Launches explosive charges that go off 10 seconds later and shatter a body into many pieces. Cheap, but messy | Steel, Actuator | Explosive charge | Low |
 | Tractor beam | Moves matter without touching it | Moovium | 100 kW | Low |
 | Thruster | Gives speed | Titanium alloy, Ceramic tile | Propellant | High |
 | Fusion converter | Fuses lighter elements into heavier ones | Superconductor coil, Circuit board, Tungsten | 1 GW | Intense |

@@ -15,16 +15,20 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 ## Notes
 
 - **Matter:** any element or material that gets harvested, such as iron, silicon, helium, or hydrogen.
-- **Grinders:** always have odd funnels that make resource gathering more challenging. They're massive: 5 blocks wide, even the weakest one. This encourages moving bodies to stations.
+- **Grinders:** always have odd funnels that make resource gathering more challenging. The funnel is a fixed odd shape, and only matter passing through its opening is collected, so facing and mooring matter. They're massive: 5 blocks wide, even the weakest one. This encourages moving bodies to stations.
 - **Part size:** parts are 1 block unless stated otherwise. Parts can take up multiple slots and are always cuboid.
 - **Heat:** tracked per part. Heat spreads between neighboring parts over time. An overheated part shuts down until it cools to ambient temperature (21°C).
 - **Radiators:** a radiator needs a face open to space, and its output scales with how much of its surface is exposed. Big ships have a heat problem deep inside, so surface area becomes a design goal.
 - **Stars:** heat rises the closer you get. Cooling, Insulation, and Starsteel let you go nearer, and overheated parts shut down. The danger is a gradual limit, not a wall.
+- **Distances:** asteroid fields and moons sit in clusters near stations, with long empty gaps between regions. Local play is slow and tactile, and hyperdrive is for crossing the gaps.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
 - **Converters:** fusion and fission converters take massive amounts of electricity, so the converter chain only works at huge scale.
 - **Stock:** tracked per ship.
 - **Mining tools:** the mass cannon, laser cannon, and charge launcher are mining tools, not combat weapons.
+- **Mass cannon:** chips pieces off a body for drills and grinders to work on. Kinetic ammo is the cost.
+- **Laser cannon:** slices a body precisely in a chosen direction, using heat and electricity.
+- **Charge launcher:** charges explode 10 seconds after launch and shatter a body into many pieces. Cheap, but messy.
 - **Starting out:** players get their first Fabricator and Assembler from stations, since both need level 2 materials to build.
 - **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits.
 - **Credits:** each element has a base price from its atomic weight times a rarity multiplier. Exact numbers wait on how mined Mass turns into material amounts (see Open questions).
