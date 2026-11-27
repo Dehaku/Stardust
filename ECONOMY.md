@@ -218,6 +218,88 @@ Moving the whole body pays more than twice as much as mining the part they want,
 
 ---
 
+## Worked examples
+
+Seven parts, shown from elements up. Prices are per 1 Mass, a block is 10 Mass, and each recipe splits its Mass equally between its inputs. Each step adds 1.2x.
+
+### Radiator (1 block)
+
+| Stage | Item | Made from | Credits per Mass |
+|---|---|---|---|
+| 0 | Aluminum, Carbon, Iron | Elements | 1 each |
+| 1 | Graphite | Carbon | 1.2 |
+| 1 | Steel | Iron, Carbon | 1.2 |
+| 2 | Radiator panel | Aluminum, Graphite | 1.32 |
+
+Part: 5 Mass Radiator panel (6.6) + 5 Mass Steel (6.0) = 12.6, times 1.2 = **15.1 credits**. The raw elements inside are worth 10, so the part is 1.5x its elements.
+
+### Solar generator (3×3×1, 9 blocks)
+
+| Stage | Item | Made from | Credits per Mass |
+|---|---|---|---|
+| 0 | Silicon, Oxygen, Calcium, Copper, Gold | Elements | 1, 1, 1, 3, 30 |
+| 1 | Glass | Silicon, Oxygen, Calcium | 1.2 |
+| 1 | Copper wire | Copper | 3.6 |
+| 2 | Circuit board | Copper wire, Silicon, Gold | 13.84 |
+
+Part, per block: 3.33 Mass each of Glass (4.0), Circuit board (46.1), and Silicon (3.3) = 53.5, times 1.2 = **64.2 per block**, or **577.8 credits** for 9 blocks. The raw elements are worth 44.4 per block, and Gold is about 75% of that.
+
+### Warp drive (1 block)
+
+| Stage | Item | Made from | Credits per Mass |
+|---|---|---|---|
+| 0 | Calcium, Phosphorus, Potassium, Copper, Titanium, Aluminum, Helium | Elements | 1, 3, 3, 3, 3, 1, 1 |
+| 1 | Copper wire | Copper | 3.6 |
+| 1 | Titanium alloy | Titanium, Aluminum | 2.4 |
+| 1 | Moovium | Calcium, Phosphorus, Potassium, then times 10 | 2.8 × 10 = 28 |
+| 2 | Superconductor coil | Copper wire, Titanium alloy, Helium | 2.8 |
+
+Part: 5 Mass Moovium (140) + 5 Mass Superconductor coil (14) = 154, times 1.2 = **184.8 credits**. The raw elements are worth only 21.7, so the part is about 8.5x its elements. The Moovium rarity premium is nearly all of that.
+
+### Builder bay (1 block)
+
+| Stage | Item | Made from | Credits per Mass |
+|---|---|---|---|
+| 0 | Iron, Carbon, Copper, Silicon, Gold | Elements | 1, 1, 3, 1, 30 |
+| 1 | Steel | Iron, Carbon | 1.2 |
+| 1 | Copper wire | Copper | 3.6 |
+| 2 | Actuator | Copper wire, Steel | 2.88 |
+| 2 | Circuit board | Copper wire, Silicon, Gold | 13.84 |
+
+Part: 3.33 Mass each of Steel (4.0), Actuator (9.6), and Circuit board (46.1) = 59.7, times 1.2 = **71.7 credits**. The raw elements are worth 47.8, so the part is 1.5x its elements. The Transport bay uses the same materials and costs the same. The Builder drones a bay holds are priced separately, as a step 3 material at 7.2 per Mass.
+
+### Fabricator (1 block)
+
+| Stage | Item | Made from | Credits per Mass |
+|---|---|---|---|
+| 0 | Iron, Carbon, Copper | Elements | 1, 1, 3 |
+| 1 | Steel | Iron, Carbon | 1.2 |
+| 1 | Copper wire | Copper | 3.6 |
+| 2 | Actuator | Copper wire, Steel | 2.88 |
+
+Part: 3.33 Mass each of Steel (4.0), Actuator (9.6), and Copper wire (12.0) = 25.6, times 1.2 = **30.7 credits**. The raw elements are worth 20, so the part is 1.5x its elements. The starting 100 credits buy one and leave 69.3.
+
+### Grinder (tier 1, 5×5×5, 125 blocks)
+
+| Stage | Item | Made from | Credits per Mass |
+|---|---|---|---|
+| 0 | Iron, Carbon | Elements | 1 each |
+| 1 | Steel | Iron, Carbon | 1.2 |
+| 1 | Graphite | Carbon | 1.2 |
+| 2 | Bearing | Steel, Graphite | 1.44 |
+
+Part, per block: 5 Mass Steel (6.0) + 5 Mass Bearing (7.2) = 13.2, times 1.2 = **15.8 per block**, or **1,980 credits** for 125 blocks. It takes 1,250 Mass of materials, made of about 469 Iron and 781 Carbon. Those elements are worth 1,250, so the part is about 1.6x its elements.
+
+### Lead plate (1×1×1)
+
+| Stage | Item | Made from | Credits per Mass |
+|---|---|---|---|
+| 0 | Lead | Element | 3 |
+
+Part: 10 Mass of Lead is 30, times 1.2 = **36 credits**. It's one step at 1.2x. A 5×5×1 plate is 25 blocks, or 900 credits.
+
+---
+
 ## Things to watch
 
 - **Buy and craft loop:** stations sell at full value and buy at 0.8x. Each crafting step adds 1.2x, so one step loses 4% (1.2 × 0.8 = 0.96), two steps gain 15% (1.44 × 0.8 = 1.15), and three steps gain 38% (1.73 × 0.8 = 1.38). The loop only pays for deeper chains, and electricity has no price here, so crafting speed is the only limit. A buy rate of 0.7 would break even at two steps, and 0.5 would stop the loop entirely.
