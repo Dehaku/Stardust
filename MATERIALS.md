@@ -47,6 +47,19 @@ Converter recipes are loose, not real physics. Each one shows how many of each i
 
 ---
 
+## Natural material breakdown
+
+When a refinery or electrolysis part breaks a natural material down, it always gives the same elements, in these shares of its Mass.
+
+| Material | Breakdown | Broken down by |
+|---|---|---|
+| Regolith | 40% Oxygen, 20% Silicon, 15% Aluminum, 10% Iron, 10% Calcium, 5% Titanium | Refinery |
+| Basalt | 45% Oxygen, 23% Silicon, 12% Iron, 8% Aluminum, 7% Calcium, 5% Magnesium | Refinery |
+| Water ice | 89% Oxygen, 11% Hydrogen | Electrolysis |
+| Ammonia | 82% Nitrogen, 18% Hydrogen | Electrolysis |
+
+---
+
 ## Elements
 
 | Name | Description | Harvested from | Cost to make |

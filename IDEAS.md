@@ -41,7 +41,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Charge launcher:** charges explode 10 seconds after launch and shatter a body into many pieces. Cheap, but messy.
 - **Starting out:** players get their first Fabricator and Assembler from stations, since both need level 2 materials to build.
 - **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits.
-- **Credits:** prices and quest payouts are in `ECONOMY.md`. Elements are priced per Mass by rarity tier, materials by their recipe, and parts by price class.
+- **Credits:** prices and quest payouts are in `ECONOMY.md`. Elements are priced per Mass by rarity tier. Materials and parts are worth the sum of what's inside them, times 1.2 for each step.
 - **Tiers:** each part tier is 1 block wider than the last, and its output, heat, and power use all go up 10x. Grinders and generators grow 2 blocks wider per tier, with the same 10x. Material cost goes up 9x per tier, so one big part is slightly cheaper than ten small ones and easier to manage.
 
 ---
