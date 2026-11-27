@@ -97,7 +97,7 @@ Environmental only. Nothing hunts you.
   - Thrusters fire randomly for 1–3 seconds every 5–15 seconds.
   - Gyroscopes and other control parts malfunction, and the ship turns and rotates in random directions for 1–3 seconds every 5–15 seconds.
   - Each control part can go off randomly if it's unprotected.
-  - Lead on at least two faces of a part protects it from radiation.
+  - Lead plates protect a part when they cover its entire face, on at least two faces. A part 5 blocks wide needs 25 Lead plates on one face and 25 on another.
 - **Solar flares:** cause massive heat in exposed ship parts and rapidly drain your batteries. Shield generators protect parts and batteries in range from the effects of flares.
 - **Gravity:** strong gravity near big bodies.
 - **Volatile packages:** a quest hazard. See `POIS.md`.

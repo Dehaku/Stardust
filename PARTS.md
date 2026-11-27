@@ -31,6 +31,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Heat sink | Holds more heat before reaching dangerous levels | Graphite, Ceramic tile | None | None (stores heat) |
 | Radiator | Dissipates heat into space. Needs a face open to space, and output scales with how much surface is exposed | Radiator panel, Steel | None | None (removes heat) |
 | Insulation | Resists 95% of temperature exchange with neighboring parts | Aerogel, Tungsten | None | None |
+| Lead plate | Blocks radiation. A part is protected when its entire face is covered, on at least two faces. A part 5 blocks wide needs 25 plates on one face and 25 on another | Lead | None | None |
 | Heat ejector | Launches hot matter out, heavily lowering heat | Titanium alloy, Ceramic tile, Actuator | Matter | None (removes heat) |
 | Coolant pump | Moves heat from one part to another on purpose. Built with Cryonite, it moves heat 10x better than with Ammonia or Water ice | Actuator, Copper wire, [Ammonia, Water ice, Cryonite] | 10 kW | None |
 | Battery | Increases ship electricity capacity, in tiers from kilowatts to gigawatts and up | [Lithium, Zinc], Copper wire, Polymer | None | Low |
