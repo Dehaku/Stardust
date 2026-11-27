@@ -10,7 +10,7 @@ Credit prices and quest payouts. All numbers are placeholders to tune later, and
 - **Natural materials are priced by what they break down into.** The price is the sum of their elements, with no markup. See the breakdown tables in `MATERIALS.md`.
 - **Rare materials** are priced like any made material, then times 10 as a rarity premium.
 - **Parts:** every block needs 10 Mass of materials, split equally across the part's listed materials. A part's price is the sum of its materials times 1.2.
-- **Stations:** they buy and sell elements and materials at exactly their value. They buy and sell parts at the part's price.
+- **Stations:** they sell elements, materials, and parts at full value, and buy them at 0.8x. Quest payouts use full value, not the 0.8x buy rate.
 
 ---
 
@@ -131,7 +131,7 @@ Starsteel includes Helium-3 at its full price of 12, which is why it costs more 
 
 A part's price is 12 times the average price per Mass of its materials, per block. That's 10 Mass per block, times 1.2. Parts are 1 block unless stated otherwise.
 
-Grinders and Refineries are 5 blocks wide. I assumed a 5 × 5 × 5 cube, 125 blocks, so their price is the per-block price times 125. Tell me if the depth should be different.
+Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the per-block price times 125.
 
 | Part | Price per block | Blocks | Tier 1 price |
 |---|---|---|---|
@@ -180,13 +180,14 @@ Specialized producers aren't sold, so they have no price.
 
 - **Starting credits:** the 100 starting credits buy a Fabricator (30.7), with enough left for a few cheap parts.
 - **Tiers:** each tier costs 9x the one before, matching the material cost rule. A Fabricator is 30.7, then 276, then 2,487 credits.
-- **Blueprints:** a blueprint costs 10x the part price for the same tier. A tier 1 Fabricator blueprint is about 307 credits.
+- **Blueprints:** a blueprint costs 10x the part price for the same tier. A tier 1 Fabricator blueprint is about 307 credits. A blueprint unlocks the ability to build that part yourself. You can still buy finished parts from stations without it.
+- **Lead plates:** they can be placed as a flat plate with a depth of 1, like 5 × 5 × 1, and cost the same per block. A 5 × 5 × 1 plate is 25 blocks, or 900 credits.
 
 ---
 
 ## Quests
 
-A default quest pays 100 credits.
+A default quest pays 100 credits. Quest payouts use full value, not the 0.8x station buy rate.
 
 | Quest | Payout | Example |
 |---|---|---|
@@ -211,7 +212,7 @@ Example: a 1,000 Mass asteroid, covered in regolith.
 
 - **Body delivery quest:** 2x the whole body is 2,880 credits.
 - **Mining only the wanted Nickel:** 200 Mass delivered at 2x is 1,200 credits.
-- **Selling the whole body to a Cargo station:** pays for the full Mass at market, 1,440 credits.
+- **Selling the whole body to a Cargo station:** pays for the full Mass at the 0.8x buy rate, 1,152 credits.
 
 Moving the whole body pays more than twice as much as mining the part they want, which is the reason to put in the effort.
 
@@ -219,7 +220,7 @@ Moving the whole body pays more than twice as much as mining the part they want,
 
 ## Things to watch
 
-- **Buy and craft loop:** stations sell matter at its value and buy made goods at 1.2x per step. Buying elements, crafting them into a part and selling it returns about 1.7x the elements' cost, limited only by build and crafting time. The 1.2x is meant to cover electricity, but electricity has no price here, so nothing stops the loop except how fast you can craft.
+- **Buy and craft loop:** stations sell at full value and buy at 0.8x. Each crafting step adds 1.2x, so one step loses 4% (1.2 × 0.8 = 0.96), two steps gain 15% (1.44 × 0.8 = 1.15), and three steps gain 38% (1.73 × 0.8 = 1.38). The loop only pays for deeper chains, and electricity has no price here, so crafting speed is the only limit. A buy rate of 0.7 would break even at two steps, and 0.5 would stop the loop entirely.
 - **Converters:** a converter can turn cheap elements into pricier ones, like 9 Helium (9 credits) into 4 Beryllium (12 credits). Massive electricity is the only limit.
 - **Cheap parts:** most parts cost 15 to 100 credits per block, which is a fraction of one quest. Only Grinders and Refineries, and the Moovium and Voidglass parts, cost much more.
-- **Lead plates:** at 36 credits each, covering both faces of a 5-wide part takes 50 plates and 1,800 credits.
+- **Lead plates:** at 36 credits per block, covering both faces of a 5-wide part takes 50 blocks of plate and 1,800 credits, whether they're placed as one flat plate per face or as single blocks.
