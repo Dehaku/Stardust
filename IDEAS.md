@@ -30,6 +30,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Radiators:** a radiator needs a face open to space, and its output scales with how much of its surface is exposed. Big ships have a heat problem deep inside, so surface area becomes a design goal.
 - **Stars:** heat rises the closer you get. Cooling, Insulation, and Starsteel let you go nearer, and overheated parts shut down. The danger is a gradual limit, not a wall.
 - **Distances:** asteroid fields and moons sit in clusters near stations, with long empty gaps between regions. Local play is slow and tactile, and hyperdrive is for crossing the gaps.
+- **Hazards:** environmental only, such as radiation near fission sources and stars, solar flares, and strong gravity near big bodies. Lead and Shield generators become useful. Nothing hunts you.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
 - **Converters:** fusion and fission converters take massive amounts of electricity, so the converter chain only works at huge scale.
@@ -121,7 +122,6 @@ Station types and spawn weights are in `POIS.md`.
 
 ## Open questions
 
-- Which rare materials does each Exchange station give out?
 - What does the early game look like after the starting ship?
 - Units are measured in Mass. How does mined element Mass turn into material amounts? This decides the amounts in material recipes.
 - Do Specialized producers need their rare material's recipe inputs, or do they make it from nothing?
