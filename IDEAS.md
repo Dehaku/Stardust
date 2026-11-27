@@ -18,6 +18,8 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Grinders:** always have odd funnels that make resource gathering more challenging. They're massive: 5 blocks wide, even the weakest one. This encourages moving bodies to stations.
 - **Part size:** parts are 1 block unless stated otherwise. Parts can take up multiple slots and are always cuboid.
 - **Heat:** tracked per part. Heat spreads between neighboring parts over time. An overheated part shuts down until it cools to ambient temperature (21°C).
+- **Radiators:** a radiator needs a face open to space, and its output scales with how much of its surface is exposed. Big ships have a heat problem deep inside, so surface area becomes a design goal.
+- **Stars:** heat rises the closer you get. Cooling, Insulation, and Starsteel let you go nearer, and overheated parts shut down. The danger is a gradual limit, not a wall.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
 - **Converters:** fusion and fission converters take massive amounts of electricity, so the converter chain only works at huge scale.
@@ -53,7 +55,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Unlocking tiers:** each tier of each part is its own blueprint, bought at trade stations. You rebuild larger and the old part goes back to storage.
 - **Selling parts:** stations buy parts at full price, the same as they sell them for.
 - **Loose blocks:** blocks broken off by a collision drift as salvage. You can recover them with a tractor beam or cargo bay.
-- **Starting ship:** a tiny working ship with a hull, a thruster, a small storage bay, a battery, a solar generator, and a tier 1 grinder. You can mine right away, then buy your first Fabricator and Assembler.
+- **Starting ship:** a tiny working ship with a hull, a thruster, a small storage bay, a battery, a solar generator, and a tier 1 grinder. You can mine right away, then buy your first Fabricator and Assembler. A trade station is in sight at the start, so the first loop is mine a nearby body, sell elements there, and buy your first machines.
 - **Drones:** Builder drones can't be lost. They always return safely.
 - **Mass units:** the unit is called Mass. It's an abstract unit, and scales are fudged heavily since whole solar systems can't be simulated accurately.
 
@@ -89,6 +91,7 @@ Station types and spawn weights are in `POIS.md`.
 - Detach control from a ship and control any ship you own.
 - No limit on how far away you can control a ship from.
 - Vessel list: a rearrangeable, scrollable, foldable list of the vessels you own. It shows each vessel's current activity and lets you take control of one.
+- Transfers: from the vessel list, a ship with a Transport bay can send matter or parts to any other ship you own. The Transport bay launches a storage drone to the destination. Each launch costs a low amount of materials, plus electricity that scales with distance. The electricity cost rises exponentially past a short range, so ships are encouraged to stay close.
 
 ---
 
@@ -107,7 +110,6 @@ Station types and spawn weights are in `POIS.md`.
 
 - Which rare materials does each Exchange station give out?
 - What does the early game look like after the starting ship?
-- Stock is per ship, so how do ships transfer matter and parts between each other?
 - Units are measured in Mass. How does mined element Mass turn into material amounts? This decides the amounts in material recipes.
 - Do Specialized producers need their rare material's recipe inputs, or do they make it from nothing?
 - What mass does each celestial rank need?

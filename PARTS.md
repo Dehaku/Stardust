@@ -26,9 +26,10 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Fabricator | Makes level 1 materials (made only from elements) | Steel, Actuator, Copper wire | 100 kW | Medium |
 | Assembler | Makes level 2 materials (made from level 1 materials), plus Builder drones (level 3) | Circuit board, Actuator, Steel | 100 kW | Medium |
 | Builder bay | Holds Builder drones and releases 1 per part being built. Each drone launches outward, curves toward the construction, and returns when it's done | Steel, Actuator, Circuit board | 100 kW | Low |
+| Transport bay | Launches a storage drone carrying matter or parts to another ship you own. The sending ship needs one | Steel, Actuator, Circuit board | A low amount of materials per launch, plus electricity that scales with distance and rises exponentially past a short range | Low |
 | Electrolysis | Turns water ice into hydrogen and oxygen, and ammonia into nitrogen and hydrogen | Copper wire, Titanium alloy | 100 kW | Low |
 | Heat sink | Holds more heat before reaching dangerous levels | Graphite, Ceramic tile | None | None (stores heat) |
-| Radiator | Dissipates heat into space | Radiator panel, Steel | None | None (removes heat) |
+| Radiator | Dissipates heat into space. Needs a face open to space, and output scales with how much surface is exposed | Radiator panel, Steel | None | None (removes heat) |
 | Insulation | Resists 95% of temperature exchange with neighboring parts | Aerogel, Tungsten | None | None |
 | Heat ejector | Launches hot matter out, heavily lowering heat | Titanium alloy, Ceramic tile, Actuator | Matter | None (removes heat) |
 | Coolant pump | Moves heat from one part to another on purpose. Built with Cryonite, it moves heat 10x better than with Ammonia or Water ice | Actuator, Copper wire, [Ammonia, Water ice, Cryonite] | 10 kW | None |
