@@ -42,7 +42,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Starting out:** players get their first Fabricator and Assembler from stations, since both need level 2 materials to build.
 - **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits. Stations buy at 0.8x of an item's value and sell at full value. A blueprint unlocks building that part yourself, and you can still buy finished parts from stations without it.
 - **Credits:** prices and quest payouts are in `ECONOMY.md`. Elements are priced per Mass by rarity tier. Materials and parts are worth the sum of what's inside them, times 1.2 for each step.
-- **Tiers:** each part tier is 1 block wider than the last, and its output, heat, and power use all go up 10x. Grinders and generators grow 2 blocks wider per tier, with the same 10x. Material cost goes up 9x per tier, so one big part is slightly cheaper than ten small ones and easier to manage.
+- **Tiers:** there are 10 size tiers for now, and more may be added later, so the rule is a formula. A part is a cube, and its width is its starting width plus 2 for each tier above the first. Most parts start at 1 wide, so a Radiator goes 1, 3, 5, and so on up to 19 wide (19×19×19). The Grinder starts at 5 wide (5×5×5) and reaches 23 wide at tier 10. Each tier's output, heat, and power use go up 10x. How material cost scales is an open question.
 
 ---
 
@@ -57,7 +57,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Damage:** collisions can destroy blocks, and Reinforced hull is immune. Blocks that lose their connection to the ship drift away as loose bodies.
 - **Paying:** the full cost leaves ship storage when you place a block. Cancelling a block that's still waiting for a drone refunds it.
 - **Flight model:** full center of mass and torque. Block mass shifts the center of mass, and off-center thrust spins the ship, so thruster placement and gyroscopes matter.
-- **Sizes:** every part has a fixed size per tier. Parts aren't stretchable, except Lead plates, which can be placed as a flat plate with a depth of 1, like 5×5×1.
+- **Sizes:** every part has a fixed size per tier. Parts aren't stretchable, except Lead plates, which scale in width like other parts but stay 1 block deep: 1×1×1, 3×3×1, 5×5×1, 7×7×1, and so on.
 - **Build timing:** you can build at any time, even while flying. Drones chase the ship.
 - **Builder bay capacity:** each Builder bay holds a set number of drones, and higher tiers hold 10x more. More bays means faster building.
 - **Block mass:** a block weighs what its materials weigh (its cost to make, in mass units). Material choices change how a ship flies.
@@ -97,7 +97,7 @@ Environmental only. Nothing hunts you.
   - Thrusters fire randomly for 1–3 seconds every 5–15 seconds.
   - Gyroscopes and other control parts malfunction, and the ship turns and rotates in random directions for 1–3 seconds every 5–15 seconds.
   - Each control part can go off randomly if it's unprotected.
-  - Lead plates protect a part when they cover its entire face, on at least two faces. A part 5 blocks wide needs 25 Lead plates on one face and 25 on another. Plates can be placed as a flat plate like 5×5×1, and cost the same per block.
+  - Lead plates protect a part when they cover its entire face, on at least two faces. A part 5 blocks wide needs 25 Lead plates on one face and 25 on another. Lead plates scale in width but not depth (1×1×1, 3×3×1, 5×5×1, 7×7×1, and so on) and cost the same per block.
 - **Solar flares:** cause massive heat in exposed ship parts and rapidly drain your batteries. Shield generators protect parts and batteries in range from the effects of flares.
 - **Gravity:** strong gravity near big bodies.
 - **Volatile packages:** a quest hazard. See `POIS.md`.
@@ -142,3 +142,4 @@ Station types and spawn weights are in `POIS.md`.
 - Do Specialized producers need their rare material's recipe inputs, or do they make it from nothing?
 - What mass does each celestial rank need?
 - Gas giants, comets, and neutron stars are named as harvest sources but aren't in `BODIES.md` yet. Should they be added?
+- Part widths now go 1, 3, 5, and so on, so the old "9x material cost per tier" rule no longer matches block counts. How should material cost scale per tier?

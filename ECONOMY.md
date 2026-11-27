@@ -179,9 +179,9 @@ Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the
 Specialized producers aren't sold, so they have no price.
 
 - **Starting credits:** the 100 starting credits buy a Fabricator (30.7), with enough left for a few cheap parts.
-- **Tiers:** each tier costs 9x the one before, matching the material cost rule. A Fabricator is 30.7, then 276, then 2,487 credits.
+- **Tiers:** part widths now grow 1, 3, 5, 7, and so on, so the old 9x per tier cost rule is under review. See Open questions in `IDEAS.md`.
 - **Blueprints:** a blueprint costs 10x the part price for the same tier. A tier 1 Fabricator blueprint is about 307 credits. A blueprint unlocks the ability to build that part yourself. You can still buy finished parts from stations without it.
-- **Lead plates:** they can be placed as a flat plate with a depth of 1, like 5 × 5 × 1, and cost the same per block. A 5 × 5 × 1 plate is 25 blocks, or 900 credits.
+- **Lead plates:** they scale in width but not depth (1×1×1, 3×3×1, 5×5×1, 7×7×1, and so on) and cost the same per block. A 5×5×1 plate is 25 blocks, or 900 credits.
 
 ---
 

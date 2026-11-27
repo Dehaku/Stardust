@@ -6,7 +6,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 **Cost to use:** what the part consumes while running. **None** means it uses nothing. Electricity is given in kW, MW, or GW.
 **Heat made:** how much heat the part makes while running: None, Low, Medium, High, or Intense.
 **Alternatives:** items in brackets are options, and any one of them works. For example, `[Lithium, Zinc]` means either Lithium or Zinc.
-**Tiers:** all values are for tier 1. Each tier up is 10x better and uses 10x the power and makes 10x the heat. Material cost goes up 9x. See IDEAS.md Notes.
+**Tiers:** all values are for tier 1. Each tier up is 10x better, uses 10x the power, and makes 10x the heat. Parts are cubes that start 1 wide unless stated otherwise (the Grinder and Refinery start at 5) and grow 2 wide per tier, for 10 tiers. See IDEAS.md Notes.
 
 | Part | Function | Cost to make | Cost to use | Heat made |
 |---|---|---|---|---|
@@ -31,7 +31,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Heat sink | Holds more heat before reaching dangerous levels | Graphite, Ceramic tile | None | None (stores heat) |
 | Radiator | Dissipates heat into space. Needs a face open to space, and output scales with how much surface is exposed | Radiator panel, Steel | None | None (removes heat) |
 | Insulation | Resists 95% of temperature exchange with neighboring parts | Aerogel, Tungsten | None | None |
-| Lead plate | Blocks radiation. A part is protected when its entire face is covered, on at least two faces. A part 5 blocks wide needs 25 plates on one face and 25 on another. Can be placed as a flat plate, like 5×5×1, at the same cost per block | Lead | None | None |
+| Lead plate | Blocks radiation. A part is protected when its entire face is covered, on at least two faces. A part 5 blocks wide needs 25 plates on one face and 25 on another. Scales in width but not depth: 1×1×1, 3×3×1, 5×5×1, and so on, at the same cost per block | Lead | None | None |
 | Heat ejector | Launches hot matter out, heavily lowering heat | Titanium alloy, Ceramic tile, Actuator | Matter | None (removes heat) |
 | Coolant pump | Moves heat from one part to another on purpose. Built with Cryonite, it moves heat 10x better than with Ammonia or Water ice | Actuator, Copper wire, [Ammonia, Water ice, Cryonite] | 10 kW | None |
 | Battery | Increases ship electricity capacity, in tiers from kilowatts to gigawatts and up | [Lithium, Zinc], Copper wire, Polymer | None | Low |
