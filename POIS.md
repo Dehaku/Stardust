@@ -22,7 +22,7 @@ Quest stations ask for one of these:
 
 - **Delivery:** bring specific matter or parts to this station. They're low on materials.
 - **Body delivery:** bring a body of a given type. They're low on materials and need a lot of it.
-- **Volatile packages:** deliver packages to another station. If you collide with anything while carrying them, your Storage bays explode. Pays 2x the normal quest reward.
+- **Volatile packages:** deliver packages to another station. If you collide with anything while carrying them, your Storage bays explode. The blast destroys every block within the bay's size + 2 blocks, and all the matter you had. Pays 2x the normal quest reward.
 - **Clearing:** harvest the X nearest asteroid-tier bodies. The station sees them as a danger and wants them gone.
 
 ---

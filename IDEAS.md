@@ -30,7 +30,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Radiators:** a radiator needs a face open to space, and its output scales with how much of its surface is exposed. Big ships have a heat problem deep inside, so surface area becomes a design goal.
 - **Stars:** heat rises the closer you get. Cooling, Insulation, and Starsteel let you go nearer, and overheated parts shut down. The danger is a gradual limit, not a wall.
 - **Distances:** asteroid fields and moons sit in clusters near stations, with long empty gaps between regions. Local play is slow and tactile, and hyperdrive is for crossing the gaps.
-- **Hazards:** environmental only, such as radiation near fission sources and stars, solar flares, and strong gravity near big bodies. Lead and Shield generators become useful. Nothing hunts you.
+- **Hazards:** environmental only, and nothing hunts you. See Hazards below.
 - **Slots:** unlimited. Ships will eventually grow bigger than stars.
 - **Physics:** always on. Accelerate and decelerate carefully, especially with a cargo bay full of a body.
 - **Converters:** fusion and fission converters take massive amounts of electricity, so the converter chain only works at huge scale.
@@ -86,6 +86,21 @@ Body types, what they're made of, and spawn weights are in `BODIES.md`.
 - Your ship's total mass sets your title: Asteroid, then Moon, Planet, and Star.
 - A simple display shows your current title and the percentage of the way to the next rank.
 - Ranks are just titles. They don't unlock anything.
+
+---
+
+## Hazards
+
+Environmental only. Nothing hunts you.
+
+- **Radiation:** comes from fission sources and stars, and makes you lose control briefly.
+  - Thrusters fire randomly for 1–3 seconds every 5–15 seconds.
+  - Gyroscopes and other control parts malfunction, and the ship turns and rotates in random directions for 1–3 seconds every 5–15 seconds.
+  - Each control part can go off randomly if it's unprotected.
+  - Lead on at least two faces of a part protects it from radiation.
+- **Solar flares:** cause massive heat in exposed ship parts and rapidly drain your batteries. Shield generators protect parts and batteries in range from the effects of flares.
+- **Gravity:** strong gravity near big bodies.
+- **Volatile packages:** a quest hazard. See `POIS.md`.
 
 ---
 

@@ -42,7 +42,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Warp drive | Teleports the vessel | Moovium, Superconductor coil | 1 MW | High |
 | Hyperdrive | Lets the vessel go really fast, as long as it's on | Moovium, Circuit board | 1 MW | High |
 | Scoop | Collects trace matter from open space, or lots of matter from gas giants and stars, including helium-3 | Titanium alloy, Carbon fiber | 10 kW | Medium |
-| Shield generator | Absorbs damage | Superconductor coil, Voidglass | 100 kW | Medium |
+| Shield generator | Absorbs damage, and protects parts and batteries in range from the effects of solar flares | Superconductor coil, Voidglass | 100 kW | Medium |
 | Sensor array | Reveals bodies at range and shows their matter makeup | Glass, Circuit board, Silicon | 10 kW | Low |
 | Autopilot | Holds a course or station so you can work on other vessels | Circuit board, Copper wire | 1 kW | None |
 | Gyroscope | Rotates the ship without thrust | Bearing, Steel | 10 kW | Low |
