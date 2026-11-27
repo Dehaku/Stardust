@@ -42,7 +42,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Starting out:** players get their first Fabricator and Assembler from stations, since both need level 2 materials to build.
 - **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits. Stations buy at 0.8x of an item's value and sell at full value. A blueprint unlocks building that part yourself, and you can still buy finished parts from stations without it.
 - **Credits:** prices and quest payouts are in `ECONOMY.md`. Elements are priced per Mass by rarity tier. Materials and parts are worth the sum of what's inside them, times 1.2 for each step.
-- **Tiers:** there are 10 size tiers for now, and more may be added later, so the rule is a formula. A part is a cube, and its width is its starting width plus 2 for each tier above the first. Most parts start at 1 wide, so a Radiator goes 1, 3, 5, and so on up to 19 wide (19×19×19). Generators and converters start at 3 wide and reach 21 wide at tier 10. The Grinder and Refinery start at 5 wide (5×5×5) and reach 23 wide at tier 10. Material cost, output, heat, and power use all scale with the part's block count. Output also gets a small bonus for bigger parts, a placeholder 1.1x for each tier above the first, so one big part beats the same volume of small parts a little and is easier to manage.
+- **Tiers:** there are 10 size tiers for now, and more may be added later, so the rule is a formula. A part is a cube, and its width is its starting width plus 2 for each tier above the first. Most parts start at 1 wide, so a Radiator goes 1, 3, 5, and so on up to 19 wide (19×19×19). Generators and converters start at 3 wide and reach 21 wide at tier 10. The Solar generator is flat like the Lead plate, so it goes 3×3×1 up to 21×21×1. The Grinder and Refinery start at 5 wide (5×5×5) and reach 23 wide at tier 10. Material cost, output, heat, and power use all scale with the part's block count. Output also gets a small bonus for bigger parts, a placeholder 1.1x for each tier above the first, so one big part beats the same volume of small parts a little and is easier to manage.
 
 ---
 
@@ -57,7 +57,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Damage:** collisions can destroy blocks, and Reinforced hull is immune. Blocks that lose their connection to the ship drift away as loose bodies.
 - **Paying:** the full cost leaves ship storage when you place a block. Cancelling a block that's still waiting for a drone refunds it.
 - **Flight model:** full center of mass and torque. Block mass shifts the center of mass, and off-center thrust spins the ship, so thruster placement and gyroscopes matter.
-- **Sizes:** every part has a fixed size per tier. Parts aren't stretchable, except Lead plates, which scale in width like other parts but stay 1 block deep: 1×1×1, 3×3×1, 5×5×1, 7×7×1, and so on.
+- **Sizes:** every part has a fixed size per tier. Parts aren't stretchable, except flat parts, which scale in width but stay 1 block deep. Lead plates go 1×1×1, 3×3×1, 5×5×1, 7×7×1, and so on, and Solar generators go 3×3×1, 5×5×1, 7×7×1, and so on.
 - **Build timing:** you can build at any time, even while flying. Drones chase the ship.
 - **Builder bay capacity:** each Builder bay holds a set number of drones, and higher tiers hold 10x more. More bays means faster building.
 - **Block mass:** a block weighs what its materials weigh (its cost to make, in mass units). Material choices change how a ship flies.

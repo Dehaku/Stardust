@@ -6,7 +6,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 **Cost to use:** what the part consumes while running. **None** means it uses nothing. Electricity is given in kW, MW, or GW.
 **Heat made:** how much heat the part makes while running: None, Low, Medium, High, or Intense.
 **Alternatives:** items in brackets are options, and any one of them works. For example, `[Lithium, Zinc]` means either Lithium or Zinc.
-**Tiers:** all values are for tier 1. Parts are cubes that start 1 wide unless stated otherwise. The Grinder and Refinery start at 5, and generators and converters (Solar, Thermal, Fission, Fusion, and Shield generators, and Fusion and Fission converters) start at 3. Each tier grows 2 wide, for 10 tiers. Cost, output, heat, and power use scale with the block count, and output gets a small bonus for bigger parts. See IDEAS.md Notes.
+**Tiers:** all values are for tier 1. Parts are cubes that start 1 wide unless stated otherwise. The Grinder and Refinery start at 5, and generators and converters (Solar, Thermal, Fission, Fusion, and Shield generators, and Fusion and Fission converters) start at 3. The Solar generator and Lead plate are flat: they scale in width but stay 1 block deep. Each tier grows 2 wide, for 10 tiers. Cost, output, heat, and power use scale with the block count, and output gets a small bonus for bigger parts. See IDEAS.md Notes.
 
 | Part | Function | Cost to make | Cost to use | Heat made |
 |---|---|---|---|---|
@@ -35,7 +35,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 | Heat ejector | Launches hot matter out, heavily lowering heat | Titanium alloy, Ceramic tile, Actuator | Matter | None (removes heat) |
 | Coolant pump | Moves heat from one part to another on purpose. Built with Cryonite, it moves heat 10x better than with Ammonia or Water ice | Actuator, Copper wire, [Ammonia, Water ice, Cryonite] | 10 kW | None |
 | Battery | Increases ship electricity capacity, in tiers from kilowatts to gigawatts and up | [Lithium, Zinc], Copper wire, Polymer | None | Low |
-| Solar generator | Makes electricity from a nearby star. Output rises the closer it is and the more it faces the star directly | Glass, Circuit board, Silicon | None | Low |
+| Solar generator | Makes electricity from a nearby star. Output rises the closer it is and the more it faces the star directly. Flat: scales in width, not depth | Glass, Circuit board, Silicon | None | Low |
 | Thermal generator | Slowly turns high heat into electricity | Copper wire, Titanium alloy, Graphite | None | None (uses heat) |
 | Burner | Makes a lot of heat out of matter | Ceramic tile, Titanium alloy | Pyrium (most heat), or Hydrogen and Oxygen (less heat) | High |
 | Fission generator | Makes intense heat out of radioactive material | Lead, Boron, Steel | Uranium | Intense |

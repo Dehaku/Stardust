@@ -131,7 +131,7 @@ Starsteel includes Helium-3 at its full price of 12, which is why it costs more 
 
 A part's price is 12 times the average price per Mass of its materials, per block. That's 10 Mass per block, times 1.2. Parts are 1 block unless stated otherwise.
 
-Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the per-block price times 125. Generators and converters start at 3 × 3 × 3, 27 blocks, so their price is the per-block price times 27.
+Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the per-block price times 125. Generators and converters start at 3 × 3 × 3, 27 blocks, so their price is the per-block price times 27. The Solar generator is flat, 3 × 3 × 1, 9 blocks, so its price is the per-block price times 9.
 
 | Part | Price per block | Blocks | Tier 1 price |
 |---|---|---|---|
@@ -161,7 +161,7 @@ Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the
 | Battery | 31.2 | 1 | 31.2 |
 | Electrolysis | 36.0 | 1 | 36.0 |
 | Lead plate | 36.0 | 1 | 36.0 |
-| Solar generator | 64.2 | 27 | 1,733.4 |
+| Solar generator | 64.2 | 9 | 577.8 |
 | Sensor array | 64.2 | 1 | 64.2 |
 | Assembler | 71.7 | 1 | 71.7 |
 | Builder bay | 71.7 | 1 | 71.7 |
