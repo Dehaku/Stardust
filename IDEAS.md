@@ -6,6 +6,15 @@ Space game about harvesting asteroids, moons, planets, and stars, all while maki
 
 ---
 
+## Game
+
+- Single-player.
+- Endless sandbox. Your rank title and the percentage to the next rank are the main milestones.
+- The universe is procedurally generated from a seed, using the spawn weights in `BODIES.md` and `POIS.md`.
+- All ships you own keep running in real time while you control a different one.
+
+---
+
 ## Ships
 
 Ships are made of modular parts. The full parts list, with cost to make and cost to use, is in `PARTS.md`.
