@@ -25,7 +25,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Mining tools:** the mass cannon, laser cannon, and charge launcher are mining tools, not combat weapons.
 - **Starting out:** players get their first Fabricator and Assembler from stations, since both need level 2 materials to build.
 - **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits.
-- **Credits:** each element has a base price from its atomic weight times a rarity multiplier. Exact numbers wait on the mass units question below.
+- **Credits:** each element has a base price from its atomic weight times a rarity multiplier. Exact numbers wait on how mined Mass turns into material amounts (see Open questions).
 - **Tiers:** each part tier is 1 block wider than the last, and its output, heat, and power use all go up 10x. Grinders and generators grow 2 blocks wider per tier, with the same 10x. Material cost goes up 9x per tier, so one big part is slightly cheaper than ten small ones and easier to manage.
 
 ---
@@ -52,6 +52,10 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Placing stored parts:** placing a part you already have takes the part's normal build time.
 - **Unlocking tiers:** each tier of each part is its own blueprint, bought at trade stations. You rebuild larger and the old part goes back to storage.
 - **Selling parts:** stations buy parts at full price, the same as they sell them for.
+- **Loose blocks:** blocks broken off by a collision drift as salvage. You can recover them with a tractor beam or cargo bay.
+- **Starting ship:** a tiny working ship with a hull, a thruster, a small storage bay, a battery, a solar generator, and a tier 1 grinder. You can mine right away, then buy your first Fabricator and Assembler.
+- **Drones:** Builder drones can't be lost. They always return safely.
+- **Mass units:** the unit is called Mass. It's an abstract unit, and scales are fudged heavily since whole solar systems can't be simulated accurately.
 
 ---
 
@@ -102,9 +106,9 @@ Station types and spawn weights are in `POIS.md`.
 ## Open questions
 
 - Which rare materials does each Exchange station give out?
-- What's the starting ship, and what does the early game look like?
+- What does the early game look like after the starting ship?
 - Stock is per ship, so how do ships transfer matter and parts between each other?
-- Units will be measured by mass. How does mined element mass turn into material amounts? This decides the amounts in material recipes.
+- Units are measured in Mass. How does mined element Mass turn into material amounts? This decides the amounts in material recipes.
 - Do Specialized producers need their rare material's recipe inputs, or do they make it from nothing?
 - What mass does each celestial rank need?
 - Gas giants, comets, and neutron stars are named as harvest sources but aren't in `BODIES.md` yet. Should they be added?
