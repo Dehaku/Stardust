@@ -6,7 +6,7 @@ Modular ship parts. Parts are 1 block unless their function says otherwise. They
 **Cost to use:** what the part consumes while running. **None** means it uses nothing. Electricity is given in kW, MW, or GW.
 **Heat made:** how much heat the part makes while running: None, Low, Medium, High, or Intense.
 **Alternatives:** items in brackets are options, and any one of them works. For example, `[Lithium, Zinc]` means either Lithium or Zinc.
-**Tiers:** all values are for tier 1. Each tier up is 10x better, uses 10x the power, and makes 10x the heat. Parts are cubes that start 1 wide unless stated otherwise (the Grinder and Refinery start at 5) and grow 2 wide per tier, for 10 tiers. See IDEAS.md Notes.
+**Tiers:** all values are for tier 1. Parts are cubes that start 1 wide unless stated otherwise. The Grinder and Refinery start at 5, and generators and converters (Solar, Thermal, Fission, Fusion, and Shield generators, and Fusion and Fission converters) start at 3. Each tier grows 2 wide, for 10 tiers. Cost, output, heat, and power use scale with the block count, and output gets a small bonus for bigger parts. See IDEAS.md Notes.
 
 | Part | Function | Cost to make | Cost to use | Heat made |
 |---|---|---|---|---|

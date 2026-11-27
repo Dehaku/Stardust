@@ -42,7 +42,7 @@ Ships are made of modular parts. The full parts list, with cost to make and cost
 - **Starting out:** players get their first Fabricator and Assembler from stations, since both need level 2 materials to build.
 - **Selling:** unused elements can be sold to stations for credits. Stations sell parts and part blueprints for credits. Stations buy at 0.8x of an item's value and sell at full value. A blueprint unlocks building that part yourself, and you can still buy finished parts from stations without it.
 - **Credits:** prices and quest payouts are in `ECONOMY.md`. Elements are priced per Mass by rarity tier. Materials and parts are worth the sum of what's inside them, times 1.2 for each step.
-- **Tiers:** there are 10 size tiers for now, and more may be added later, so the rule is a formula. A part is a cube, and its width is its starting width plus 2 for each tier above the first. Most parts start at 1 wide, so a Radiator goes 1, 3, 5, and so on up to 19 wide (19×19×19). The Grinder starts at 5 wide (5×5×5) and reaches 23 wide at tier 10. Each tier's output, heat, and power use go up 10x. How material cost scales is an open question.
+- **Tiers:** there are 10 size tiers for now, and more may be added later, so the rule is a formula. A part is a cube, and its width is its starting width plus 2 for each tier above the first. Most parts start at 1 wide, so a Radiator goes 1, 3, 5, and so on up to 19 wide (19×19×19). Generators and converters start at 3 wide and reach 21 wide at tier 10. The Grinder and Refinery start at 5 wide (5×5×5) and reach 23 wide at tier 10. Material cost, output, heat, and power use all scale with the part's block count. Output also gets a small bonus for bigger parts, a placeholder 1.1x for each tier above the first, so one big part beats the same volume of small parts a little and is easier to manage.
 
 ---
 
@@ -142,4 +142,4 @@ Station types and spawn weights are in `POIS.md`.
 - Do Specialized producers need their rare material's recipe inputs, or do they make it from nothing?
 - What mass does each celestial rank need?
 - Gas giants, comets, and neutron stars are named as harvest sources but aren't in `BODIES.md` yet. Should they be added?
-- Part widths now go 1, 3, 5, and so on, so the old "9x material cost per tier" rule no longer matches block counts. How should material cost scale per tier?
+- What's the right size bonus for bigger parts? The placeholder is 1.1x output for each tier above the first.

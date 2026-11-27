@@ -131,11 +131,11 @@ Starsteel includes Helium-3 at its full price of 12, which is why it costs more 
 
 A part's price is 12 times the average price per Mass of its materials, per block. That's 10 Mass per block, times 1.2. Parts are 1 block unless stated otherwise.
 
-Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the per-block price times 125.
+Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the per-block price times 125. Generators and converters start at 3 × 3 × 3, 27 blocks, so their price is the per-block price times 27.
 
 | Part | Price per block | Blocks | Tier 1 price |
 |---|---|---|---|
-| Fission converter | 35.2 | 1 | 35.2 |
+| Fission converter | 35.2 | 27 | 950.4 |
 | Heat sink | 14.4 | 1 | 14.4 |
 | Radiator | 15.1 | 1 | 15.1 |
 | Gyroscope | 15.8 | 1 | 15.8 |
@@ -145,7 +145,7 @@ Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the
 | Burner | 21.6 | 1 | 21.6 |
 | Hull / Frame | 22.3 | 1 | 22.3 |
 | Scoop | 22.3 | 1 | 22.3 |
-| Fusion generator | 24.0 | 1 | 24.0 |
+| Fusion generator | 24.0 | 27 | 648.0 |
 | Cargo bay | 24.5 | 1 | 24.5 |
 | Charge launcher | 24.5 | 1 | 24.5 |
 | Mooring clamp | 24.5 | 1 | 24.5 |
@@ -154,22 +154,22 @@ Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the
 | Insulation | 25.2 | 1 | 25.2 |
 | Heat ejector | 25.9 | 1 | 25.9 |
 | Mass cannon | 28.8 | 1 | 28.8 |
-| Thermal generator | 28.8 | 1 | 28.8 |
-| Fission generator | 28.8 | 1 | 28.8 |
+| Thermal generator | 28.8 | 27 | 777.6 |
+| Fission generator | 28.8 | 27 | 777.6 |
 | Coolant pump | 29.9 | 1 | 29.9 |
 | Fabricator | 30.7 | 1 | 30.7 |
 | Battery | 31.2 | 1 | 31.2 |
 | Electrolysis | 36.0 | 1 | 36.0 |
 | Lead plate | 36.0 | 1 | 36.0 |
-| Solar generator | 64.2 | 1 | 64.2 |
+| Solar generator | 64.2 | 27 | 1,733.4 |
 | Sensor array | 64.2 | 1 | 64.2 |
 | Assembler | 71.7 | 1 | 71.7 |
 | Builder bay | 71.7 | 1 | 71.7 |
 | Transport bay | 71.7 | 1 | 71.7 |
 | Laser cannon | 74.6 | 1 | 74.6 |
-| Fusion converter | 78.6 | 1 | 78.6 |
+| Fusion converter | 78.6 | 27 | 2,122.2 |
 | Autopilot | 104.6 | 1 | 104.6 |
-| Shield generator | 168.0 | 1 | 168.0 |
+| Shield generator | 168.0 | 27 | 4,536.0 |
 | Warp drive | 184.8 | 1 | 184.8 |
 | Hyperdrive | 251.0 | 1 | 251.0 |
 | Tractor beam | 336.0 | 1 | 336.0 |
@@ -179,7 +179,7 @@ Grinders and Refineries are 5 × 5 × 5 cubes, 125 blocks, so their price is the
 Specialized producers aren't sold, so they have no price.
 
 - **Starting credits:** the 100 starting credits buy a Fabricator (30.7), with enough left for a few cheap parts.
-- **Tiers:** part widths now grow 1, 3, 5, 7, and so on, so the old 9x per tier cost rule is under review. See Open questions in `IDEAS.md`.
+- **Tiers:** a part's price is its per-block price times its block count, since cost follows volume. A Radiator is 15.1 at tier 1 (1 block), then 408 (27 blocks), then 1,890 (125 blocks), up to about 103,700 at tier 10 (6,859 blocks).
 - **Blueprints:** a blueprint costs 10x the part price for the same tier. A tier 1 Fabricator blueprint is about 307 credits. A blueprint unlocks the ability to build that part yourself. You can still buy finished parts from stations without it.
 - **Lead plates:** they scale in width but not depth (1×1×1, 3×3×1, 5×5×1, 7×7×1, and so on) and cost the same per block. A 5×5×1 plate is 25 blocks, or 900 credits.
 
